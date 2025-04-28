@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        h1 {
+            color: #333;
+            margin-top: 10px;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        .chart-title {
+            color: #333;
+            margin: 5px 0;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .total-count {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            margin-top: 15px;
+        }
+        .chart-wrapper {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .chart-container {
+            width: 100%;
+            height: 210px;
+            margin-top: 5px;
+        }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        .chart-description {
+            text-align: center;
+            margin: 3px 0;
+            color: #555;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSV Visualization</h1>
+    
+    <div class="total-count">
+        <strong>Total number of excerpts: 25</strong>
+    </div>
+    
+    <div class="grid-container">
+        <!-- First row - pie chart takes full width -->
+        <div class="chart-wrapper full-width">
+            <div class="chart-title">Distribution by proposed function (more likely proposal)</div>
+            <div class="chart-container">
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+        
+        <!-- Second row - two bar charts side by side -->
+        <div class="chart-wrapper">
+            <div class="chart-title">Distribution by confidence and definitions</div>
+            <div class="chart-description">Number of excerpts by confidence level and definitions</div>
+            <div class="chart-container">
+                <canvas id="confidenceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-wrapper">
+            <div class="chart-title">Definitions by confidence level</div>
+            <div class="chart-description">Rows with each confidence level marked as definitions</div>
+            <div class="chart-container">
+                <canvas id="confDefChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // PIE CHART - Distribution by proposed function
+        const pieLabels = ['GOVERN', 'PROTECT', 'IDENTIFY'];
+        const pieValues = [10, 10, 5];
+        const pieColors = ['#f9d765', '#5671f9', '#9c5bf9'];
+        
+        const pieCtx = document.getElementById('pieChart').getContext('2d');
+        new Chart(pieCtx, {
+            type: 'pie',
+            data: {
+                labels: pieLabels,
+                datasets: [{
+                    data: pieValues,
+                    backgroundColor: pieColors,
+                    borderColor: 'white',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: {
+                    padding: {
+                        top: 10,
+                        bottom: 10
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: {
+                            font: {
+                                size: 10
+                            },
+                            boxWidth: 10,
+                            padding: 8
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const label = context.label || '';
+                                const value = context.raw || 0;
+                                const total = context.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+                                const percentage = Math.round((value / total) * 100);
+                                return `${label}: ${value} (${percentage}%)`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        
+        // BAR CHART - Confidence and Definitions
+        const confLabels = ['High confidence', 'Medium confidence', 'Low confidence', 'Marked as definition'];
+        const confValues = [16, 7, 2, 4];
+        const confColors = ['#00cc44', '#ffcc00', '#ff3333', '#3366ff'];
+        
+        const confCtx = document.getElementById('confidenceChart').getContext('2d');
+        new Chart(confCtx, {
+            type: 'bar',
+            data: {
+                labels: confLabels,
+                datasets: [{
+                    label: 'Number of excerpts',
+                    data: confValues,
+                    backgroundColor: confColors,
+                    borderColor: confColors,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: {
+                    padding: {
+                        top: 5,
+                        bottom: 5
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 20,
+                        ticks: {
+                            precision: 0,
+                            font: {
+                                size: 9
+                            }
+                        },
+                        title: {
+                            display: false
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 8
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        enabled: true
+                    }
+                }
+            }
+        });
+        
+        // BAR CHART - Definitions by Confidence Level
+        const confDefLabels = ['High confidence', 'Medium confidence', 'Low confidence'];
+        const confDefValues = [0, 2, 2];
+        const confDefColors = ['#00cc44', '#ffcc00', '#ff3333'];
+        
+        const confDefCtx = document.getElementById('confDefChart').getContext('2d');
+        new Chart(confDefCtx, {
+            type: 'bar',
+            data: {
+                labels: confDefLabels,
+                datasets: [{
+                    label: 'Rows with definitions',
+                    data: confDefValues,
+                    backgroundColor: confDefColors,
+                    borderColor: confDefColors,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: {
+                    padding: {
+                        top: 5,
+                        bottom: 5
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 10,
+                        ticks: {
+                            precision: 0,
+                            font: {
+                                size: 9
+                            }
+                        },
+                        title: {
+                            display: false
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 8
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        enabled: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
