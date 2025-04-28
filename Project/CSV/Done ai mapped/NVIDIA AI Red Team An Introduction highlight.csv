@@ -1,0 +1,49 @@
+text_extract;highlight_color
+"Until standards are in place and mature testing has taken hold, organizations are using red teams to explore and enumerate the immediate risks presented by AI";yellow
+"The responsible use and development of AI requires categorizing, assessing, and mitigating enumerated risks where practical. This is true from a pure AI standpoint but also from a standard information security perspective";green
+"Our AI red team is a cross-functional team made up of offensive security professionals and data scientists. We use our combined skills to assess our ML systems to identify and help mitigate any risks from the perspective of information security";yellow
+"Required assessment activities and the various tactics, techniques, and procedures (TTPs) are clearly defined. TTPs can be added without changing existing structures";green
+"The systems and technologies in scope for our assessments are clearly defined. This helps us remain focused on ML systems and not stray into other areas";yellow
+"All efforts live within a single framework that stakeholders can reference and immediately get a broad overview of what ML security looks like";yellow
+"This framework enables us to address specific issues in specific parts of the ML pipeline, infrastructure, and technologies";red
+"Technical vulnerabilities can affect any level of infrastructure or just a specific application. They can be dealt with in the context of their function and risk-rated accordingly";yellow
+"Harm-and-abuse scenarios that are foreign to many information security practitioners are not only included but are integrated";red
+"GRC is the top level of information security efforts, ensuring that business security requirements are enumerated, communicated, and implemented";green
+"Even if ML didn't come with its own vulnerabilities, it is still developed, stored, and deployed on an infrastructure that is subject to standards set by GRC efforts";green
+"All assets within an organization are subject to being compliant with GRC standards. And if they aren't, it's ideally only because management filed and approved an exception";green
+"Development pipelines span multiple and sometimes incongruent systems. Each phase of the lifecycle is both unique in function and dependent on the prior phase";yellow
+"Because of this, ML systems tend to be tightly integrated, and the compromise of any one part of the pipeline likely affects other upstream or downstream development phases";green
+"Compartmentalizing each phase with security controls reduces attack surfaces and increases visibility into ML systems";green
+"An example control might be that pickles are blocked outside of development environments, and production models must be converted to something less prone to code execution, like ONNX";green
+"This enables R&D to continue using pickles during development but prevents them from being used in sensitive environments";yellow
+"Organizations should seek to add mitigating controls where the complete avoidance of issues is not practical";green
+"Inside a development flow, it's important to understand the tools and their properties at each stage of the lifecycle";green
+"Teams should just be aware of this fact and ensure that the appropriate network security rules are in place";green
+"Consider the scope of all technologies within the development pipeline. This includes easy things like two-factor authentication on ML services like HuggingFace";green
+"With a principled methodology, you can create foundations from which to build continuous security improvement, reaching toward standards and maturity from product design to production deployment";green
+"Your organization may already have mature processes to discover, manage, and mitigate risks associated with traditional applications";yellow
+"We hope that this framework and methodology similarly prepare you to identify and mitigate new risks from the ML components deployed in your organization";yellow
+"The risks that our organization cares about and wants to eliminate are addressed";red
+"Information security has a lot of useful paradigms, tools, and network access that enable us to accelerate responsible use in all areas";red
+"Technical risk: ML systems or processes are compromised as the result of a technical vulnerability or shortcoming";green
+"Reputational risk: Model performance or behavior reflects poorly on the organization. In this new paradigm, this could include releasing a model that has a broad societal impact";green
+"Compliance risk: The ML system is out of compliance, leading to fines or reduced market competitiveness, much like PCI or GDPR";green
+"These high-level risk categories are present in all information systems, including ML systems";yellow
+"Think of these categories like individually colored lenses on a light. Using each colored lens provides a different perspective of risks with respect to the underlying system, and sometimes the risks can be additive";red
+"For example, a technical vulnerability that leads to a breach can cause reputational damage. Depending on where the breach occurred, compliance could also require breach notification, fines, and so on";yellow
+"Models require data to be trained. Data is usually collected from both public and private sources with a specific model in mind";yellow
+"The collected data is processed in any number of ways before being introduced to an algorithm for both training and inference";red
+"After a model is trained, it is validated to ensure accuracy, robustness, interpretability, or any number of other metrics";green
+"After the model has been deployed, the system is monitored. This includes aspects of the system that may not relate to the ML model directly";green
+"For example, MLFlow has no authentication by default. Starting an MLFlow server knowingly or unknowingly opens that host for exploitation through deserialization";green
+"Jupyter servers are often started with arguments that remove authentication and TensorBoard has no authentication";green
+"A Flask server was deployed with debug privileges enabled and exposed to the Internet. It was hosting a model that provided inference for HIPAA-protected data";green
+"PII was downloaded as part of a dataset and several models have been trained on it. Now, a customer is asking about it";green
+"A public bucket with several ML artifacts, including production models, was left open to the public. It has been improperly accessed and files have been changed";green
+"Someone can consistently bypass content filters despite the models being accurate and up-to-date";green
+"A model isn't performing as well as it should in certain geographic regions";yellow
+"Someone is scanning the internal network from an inference server used to host an LLM";green
+"System monitoring services have detected someone sending a well-known dataset against the inference service";green
+"Does it sound like a technical vulnerability caused the issue?";red
+"Does this affect any ML processes?";red
+"Who is responsible for the models? Would they know if changes have been made?";yellow

@@ -1,0 +1,38 @@
+1_European and national laws, regulations and rules take precedence over national and international standardization work_GV.OC-03_GV.PO-01_GV.PO-02_
+1_The EU Machinery Directive is of great importance for products and work equipment. In Germany, this has been implemented at national level by the Product Safety Act and the Machinery Ordinance_GV.OC-03_GV.PO-01__
+2_Basic principles of data protection such as purpose determination or purpose limitation of data, necessity, transparency, data avoidance and data economy require careful consideration in the design of the sociotechnical system_PR.DS-01; PR.DS-02_GV.OC-03_PR.DS-10_data protection; privacy
+2_The sociotechnical perspective must be considered throughout the complete AI life cycle. At each stage of the AI life cycle, the focus is on specific aspects of the sociotechnical system_ID.AM-08_PR.PS-06_GV.SC-09_
+2_The central instrument of the Occupational Health and Safety Act is risk assessment, which focuses on the working conditions and the associated risks to the safety and health of employees_ID.RA-05_GV.RM-06_ID.RA-04_
+2_In dual occupational safety and health, a coherent set of rules and regulations is being drawn up in Germany in coordination between the state and the DGUV_GV.PO-01_GV.OC-03__
+3_Define relevant groups of persons and involve them. The people affected and their rights are also building blocks for in-depth problem analysis_GV.OC-02_GV.RR-02_PR.AT-01_
+3_Participatory design approach can be achieved through jointly anticipating future scenarios. The main focus is on giving users a voice without them having to become developers themselves_PR.AT-01_GV.OC-02__transparency
+3_Furthermore, this phase includes an initial risk analysis that identifies the sociotechnical consequences from the perspective of multiple stakeholders before the application is even developed and implemented_ID.RA-05_GV.SC-06_ID.RA-04_
+3_Which fundamental rights or values could potentially be affected by the use of the software? What are the intended impacts of the software? Who is affected by the use of the algorithmic assistance system?_ID.RA-04_GV.OC-02_ID.RA-05_
+4_Requirements for the necessary quality and the non-functional properties of a system can be derived from generally accepted, coordinated and preferably standardized methods, models and approaches_GV.PO-01_PR.PS-06_ID.RA-09_
+4_Three criticality models - the switch, the ladder, and the matrix_ID.RA-05_GV.RM-06__
+4_The ladder model distinguishes AI systems based on various factors and groups them into different risk classes_ID.RA-05_GV.RM-06__
+4_Based on these factors, a distinction is made between five risk classes, each of which requires different risk management steps to be taken subsequently_GV.RM-06_ID.RA-05_ID.RA-06_
+5_Analyze risks and identify sociotechnical consequences from perspective of multiple stakeholders before application development_ID.RA-05_GV.SC-06_ID.RA-04_
+5_Define control signals from the actual-target comparison and sends them back as correction signals to the corresponding elements or artifacts_DE.CM-09_DE.AE-02__
+6_Define sociotechnical requirements including ethical aspects and operationalize them in incentives for implementation_GV.PO-01_GV.RR-01_GV.OC-02_
+6_An administration shell stores all the essential properties of an asset, such as physical properties (weight, size), process values, configuration parameters, states, and capabilities_ID.AM-01; ID.AM-02_ID.AM-07__
+6_This makes it possible to access and control all information in an asset_PR.AA-05_ID.AM-08__
+7_From a sociotechnical point of view, the goals of the application and requirements in particular are defined in the initialization phase_GV.OC-01_GV.PO-01__
+7_Human-centred approach: adaptation of the components of a system to the characteristics of the user, taking into account target population, task orientation and environmental context_PR.AT-01_GV.OC-02_PR.AT-02_
+8_The sociotechnical perspective must be considered throughout the complete AI life cycle including inception, design, development, verification, validation and deployment phases_ID.AM-08_PR.PS-06_GV.SC-09_
+8_Human and technical subsystems under consideration, as well as their interaction, must be described and documented at each stage_ID.IM-04_GV.PO-02__transparency
+9_AI technology requires far-reaching efforts in research, development, standardization and regulation_GV.PO-01_GV.OC-03__
+9_Unintentional shift of the target coordinates or the change of the result of a work or production step or the behaviour of a human at the human-machine interface_ID.RA-01_DE.CM-03_DE.AE-02_
+10_Since formal verification methods are often not applicable due to system complexity, empirical validation and testing methods must be used with good coverage of input space_ID.IM-02_PR.PS-06__
+10_It is advisable to focus on specific application classes and applications when developing regulations and standards_GV.PO-01_GV.OC-01__
+11_Users must be able to make a clear mapping between the system functions presented through the interface and their goals_PR.AT-01_GV.OC-02__transparency
+11_The verification of correctness or the interpretation of these facts could be performed by an authorized digital twin with access to the submodels of the administration shell from the outside_ID.RA-09_PR.PS-04__
+12_A systematic examination of use cases with help of Trustworthiness Readiness Matrix helps assess relevance of trustworthiness aspects in respective life cycle and embedding phases_ID.RA-05_ID.IM-01__
+12_Unresolved questions are, for example, how quality can be achieved with historical data that were created under different boundary conditions_ID.RA-01_PR.DS-01__data protection
+13_The developer has no direct control over the learned parameters of the AI system and the input/output correlations implied by them_ID.RA-01_DE.AE-02__
+13_Operational AI systems have black-box properties, and their modes of operation (and thus also possible errors) are not directly apparent to the developers and users_DE.AE-02_ID.RA-01__transparency
+13_Many AI systems also have a huge input and parameter space. The camera input of a 4K camera with a high number of colour channels can be mentioned here as an example. As a result of this complexity, formal verification methods are not available_ID.RA-01_ID.IM-02__
+14_Since formal verification methods are often practically not applicable due to the system complexity, empirical validation and testing methods have to be used_ID.IM-02_PR.PS-06__
+14_For ridesharing, AI functions and implications must be explained to users within short time. Functions should be deactivatable based on user experience/needs_PR.AT-01_GV.OC-02__transparency
+14_Fleet maintenance including predictive maintenance methods should use uniform standards across manufacturers and models_ID.AM-08_PR.PS-01__
+15_The responsibilities between vehicle manufacturers and mobility service providers regarding requirements must be clarified and communicated transparently_GV.RR-02_GV.SC-02__transparency

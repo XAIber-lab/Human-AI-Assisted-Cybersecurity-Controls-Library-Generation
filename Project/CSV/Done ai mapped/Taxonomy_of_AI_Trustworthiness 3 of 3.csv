@@ -1,0 +1,78 @@
+page_text_first_proposal_second_proposal_third_proposal_labels_confidence_definition
+35_How will we assess and improve the completeness, quantity, suitability, and representativeness of the data?_ID.AM-07; ID.AM-08_ID.RA-09_PR.DS-01_data protection_High_
+35_How will we assess and improve the quality and relevance of the data? What benchmarks will we use? How will we collect and process data, for example to annotate, label, clean, and aggregate as needed?_ID.AM-07_PR.DS-01_ID.RA-09_data protection_High_
+35_How will we obtain data, and what are our informational flows? How will we appropriately limit the scope of our data collection? How will we retain and delete data as needed?_PR.DS-01; PR.DS-02_ID.AM-07_GV.PO-01_data protection; privacy_High_
+36_How will we analyze and monitor for data drift over time?_DE.CM-09_DE.AE-02_ID.RA-01_data protection_High_
+36_How will we assess and improve the balance and diversity of the data? How will we evaluate all data sets for inclusion and representation of demographic groups? How will we guard against proxies for demographic information that could contribute to discrimination?_ID.AM-07_PR.DS-01_GV.OC-02_data protection_High_
+36_How will the security of data that is used for training or created be ensured?_PR.DS-01; PR.DS-02_ID.RA-05_DE.CM-09_data protection_High_
+36_How will we protect the data used to build and operate the AI system? How will we use encryption, differential privacy, federated learning, data minimization, and/or other best practices to protect data?_PR.DS-01; PR.DS-02_PR.DS-10_ID.RA-05_privacy; data protection_High_
+36_How will we establish data oversight mechanisms, such as limiting and logging data access?_PR.PS-04_PR.AA-05_DE.CM-03_data protection_High_
+37_How will we enable people to consent to the uses of their data?_GV.OC-03_PR.AA-05_GV.PO-01_privacy_High_
+37_How will we ensure people have a say in how information about them is used? How will we honor the right to rectification and the right to erasure?_GV.OC-03_PR.AA-05_GV.PO-01_privacy_High_
+37_How will we analyze and follow data governance practices for all intended uses, stakeholders, and relevant geographic areas? How will we ensure data rights and agency?_GV.PO-01; GV.PO-02_GV.OC-03_ID.AM-07_privacy; data protection_High_
+37_How will we document the provenance of data, processes, and artifacts involved in the production of the AI system?_ID.AM-07; ID.AM-08_PR.PS-01_RS.AN-07_transparency_High_
+38_How will we assess the accuracy of what the model has learned using an interpretation method (descriptive accuracy)? How will we assess the accuracy of the underlying data relationships with the model (predictive accuracy)? What benchmarks will we use? How will we communicate this as needed?_ID.RA-05_DE.AE-02_PR.PS-04_transparency_High_
+38_How will we test whether desirable outputs of the AI system can be reproduced in different circumstances?_ID.RA-05_DE.AE-02_PR.PS-04__High_
+38_How will we improve the efficiency of the AI system in terms of its energy and power usage, model size, and memory consumption? How can we make the model architecture of the AI system more efficient?_PR.IR-04_PR.PS-01_ID.AM-08__High_
+38_How will we ensure that reliable technical and procedural controls, including deactivation and fail-safe shutdown, are in place to enable the safe use of the AI system?_PR.IR-03_PR.PS-01_GV.PO-01__High_
+38_How will we test the ability of the AI system to try to "game" a proxy of a true objective function, or to learn novel methods to achieve its objective function? How will this be prevented?_ID.RA-05_DE.AE-02_PR.PS-04__High_
+38_How will we review any errors and inconsistencies with the AI system that emerge?_DE.AE-02_RS.AN-03_DE.CM-09__High_
+39_To whom or what will the AI system be "loyal," and will that be optimal and made transparent?_GV.RR-01_GV.OC-02__transparency_Medium_
+39_How will we incentivize models to avoid power or avoid gaining more power than is necessary?_GV.RR-01_ID.RA-05___Medium_
+39_How can we contain the AI system to prevent safety and security breaches?_PR.IR-01_PR.IR-03_PR.PS-01__High_
+39_How will we assess and mitigate computational bias (including biased input data and biased model design)? How will we ensure the AI system does not provide a lower quality of service for certain demographic groups, including marginalized groups?_ID.RA-05_GV.OC-02_PR.PS-01__High_
+39_How will we detect if there is hidden functionality embedded in our models?_ID.RA-01_DE.CM-09_RS.AN-03__High_
+40_How will the AI system respond to attacks as they occur?_RS.MA-01_RS.MI-01; RS.MI-02_PR.IR-03__High_
+40_How will we make model uncertainty more interpretable by adding features such as confidence interval outputs, conditional probabilistic predictions encoded through sentences, and calibration?_DE.AE-02_ID.RA-05__transparency_High_
+40_How will we protect model access that could reveal sensitive information?_PR.AA-05_PR.DS-01_PR.IR-01_privacy_High_
+40_How will we ensure the AI system only presents outputs that are accurate and not intentionally deceptive?_ID.RA-05_DE.AE-02_PR.PS-04_transparency_High_
+40_How can we reduce the computational requirements of the AI system?_PR.IR-04_PR.PS-01___Medium_
+42_How will we ensure that the AI system can generalize from the testing environment to the complexity or different context of the application environment?_ID.RA-05_DE.AE-02_PR.PS-04__High_
+42_How will we assess the complexity of integrated networks and dependencies required for the functioning of the AI system?_ID.AM-03_GV.SC-07_PR.IR-01__High_
+42_How will we test the usability of the AI system for all kinds of users and facilitate user feedback? How will the user interface be tested for usability, comprehension, and other attributes? How will we ensure users know how to interpret system behavior?_GV.OC-02_PR.AT-01_DE.AE-02_transparency_High_
+42_How will we ensure that the AI system's user interface is usable by those with special needs or disabilities, or those at risk of exclusion?_GV.OC-02_PR.AT-01___High_
+44_How will we judge the interpretability of the system's explanation to the particular context and user?_GV.OC-02_PR.AT-01__transparency_High_
+44_How will we assess potential risks of publicizing, publishing, opening up for external use, or open-sourcing an AI system's code or model? How will we determine a strategy to safely and appropriately release the AI system, and what protections may be necessary to prevent harm or misuse?_ID.RA-05_GV.SC-05_GV.SC-06__High_
+44_How will we share critical information about our AI system with relevant authorities and stakeholders?_RS.CO-02; RS.CO-03_GV.RM-05__transparency_High_
+44_How will we test the system with users, and how will we engage them in iterating upon the system design and deployment? How will we test and improve the user experience?_GV.OC-02_PR.AT-01_ID.IM-01__High_
+45_How can we inform users that they are interacting with an AI system (and what type of AI system), or that a decision that impacts them was made by an AI system, and how can we provide expectations as to the system's capabilities, benefits, and limitations and potential risks?_GV.OC-02_PR.AT-01__transparency_High_
+46_How will we ensure the AI system will be leveraged to benefit society?_GV.OC-01_GV.RR-01___Medium_
+47_How will we monitor the AI system's capabilities, outputs, errors, breaches, success, and impacts over time, especially for self-learning or continuous-learning AI systems? How will we determine which events to monitor, and how to prioritize review and response?_DE.CM-09_DE.AE-02_RS.AN-03__High_
+47_How will we ensure the maintainability of the AI system after it is operationalized? How will we maintain the quality of the system and its outputs over time?_ID.AM-08_PR.PS-01_GV.OV-03__High_
+48_How will we ensure that a human is in control or meaningfully in the loop of the operational decision-making process of the AI system, and has been trained to exercise oversight and avoid overconfidence in the system?_GV.RR-02_PR.AT-02_GV.OV-01__High_
+48_How will human oversight be ensured in the operation of the AI system? How will we designate and train the stakeholders responsible for managing and monitoring the AI system, including overriding or interrupting the system if necessary?_GV.RR-02_PR.AT-02_GV.OV-01__High_
+48_How will we determine when and how to retire the use of the AI system?_ID.AM-08_GV.OV-02___High_
+48_How will we continue to learn, iterate, and improve over time?_ID.IM-01_GV.OV-03___Medium_
+48_How will we evaluate when the AI system has been sufficiently modified such that a new review of its technical robustness and safety is warranted?_ID.RA-07_GV.OV-02_PR.PS-01__High_
+49_How will we assess shifts to an AI system if it learns and evolves over time, including the possibility of emerging properties or discontinuous jumps in capabilities?_DE.CM-09_ID.RA-07_GV.OV-02__High_
+49_How will we track shifts in the AI system's functionality over time?_DE.CM-09_ID.RA-07_GV.OV-02__High_
+49_How will we predict and detect new capabilities and goals of the AI system?_DE.CM-09_ID.RA-07_GV.OV-02__High_
+49_How will we identify and prevent or mitigate and minimize significant adverse impacts, including harm and/or violence to people or communities, including harassment, stereotyping or demeaning, addiction, or over-reliance?_ID.RA-05_GV.OC-02_RS.MI-01__High_
+50_How will we monitor and prevent or mitigate the creation or spread of malicious or harmful synthetic content, such as non-consensual deepfakes?_DE.CM-09_RS.MI-01_ID.RA-05__High_
+50_How will we monitor uses and actively prevent or mitigate misuses and abuses, including human rights abuses? For example, how will we prevent the sale or the system to actors with records of human rights abuses?_GV.SC-06_ID.RA-05_DE.CM-09__High_
+50_How will we monitor and prevent or mitigate individual or social manipulation, for example through recommender systems, dark patterns, or computational propaganda?_DE.CM-09_ID.RA-05_RS.MI-01__High_
+50_How will we analyze and document the environmental implications of the AI system and its uses?_ID.RA-05_GV.OC-02___High_
+50_How will we determine which third parties to do business with, and how will we oversee third-party uses to help prevent misuses of the AI system?_GV.SC-06; GV.SC-07_GV.SC-04_DE.CM-06__High_
+50_How will we assess the implications of the use of the AI system over time? What events should trigger reevaluation, and how frequently should we reevaluate?_ID.RA-07_GV.OV-02_DE.CM-09__High_
+51_How will we identify and engage with communities impacted by the use of the system, either directly or indirectly, and incorporate their feedback?_GV.OC-02_ID.IM-01___High_
+51_How will we establish a dedicated channel for feedback and questions about the AI system from users and the general public?_GV.OC-02_RS.CO-02___High_
+51_How will we publicly report incidents and adverse impacts of the AI system, such as mistakes, errors, breaches, unintended consequences, etc.?_RS.CO-02; RS.CO-03_GV.OC-02__transparency_High_
+51_How will we establish a coordinated policy to encourage responsible vulnerability research and disclosure?_ID.RA-08_GV.PO-01___High_
+52_How will we notify users and impacted communities about privacy or security breaches, or other incidents?_RS.CO-02_GV.OC-02__privacy_High_
+52_How will users be able to contest or appeal a decision or action made by the AI system?_GV.OC-02_PR.AT-01___High_
+52_How will we support or compensate people who are negatively affected by the use of the AI system?_GV.OC-02_RS.CO-02___High_
+52_How can we enable access to the AI system and datasets to relevant authorities, independent researchers, and trusted intermediaries?_PR.AA-05_ID.AM-07__transparency_High_
+52_How will we enable users of the AI system to consent to its use? How will we enable them to withdraw consent?_GV.OC-03_PR.AA-05__privacy_High_
+52_How will we ensure that people have specific and clear opportunities to opt out of use of the AI system?_GV.OC-03_PR.AA-05__privacy_High_
+52_How will we protect consumers or users of the system from harm?_ID.RA-05_PR.IR-03_RS.MI-01__High_
+52_How will we protect whistleblowers, NGOs, trade unions, or other entities who come forward with concerns about the AI system?_GV.OC-02_GV.RR-02___High_
+52_How will we analyze and follow global governance deliberations and practices related to artificial intelligence?_GV.OC-03_GV.PO-02___Medium_
+53_The taxonomy may serve as a resource and tool for organizations developing AI, as well as for standards-setting bodies, policymakers, independent auditors, and civil society organizations working to evaluate and promote trustworthy AI_GV.OC-01____Low_definition
+53_One of the interesting discoveries of this research is that there are properties of trustworthiness that are unlikely to be relevant to AI systems that have minimal human engagement_GV.OC-02____Low_definition
+53-54_However, it is notable that the majority of the properties remain important across the spectrum of human engagement. This is largely because effectively all AI systems are designed and developed by people, and can impact our shared environment or high-stakes settings, even if they are not ultimately used or operated by people_GV.OC-02; GV.RR-01____Medium_definition
+54_It is also still important to consider properties such as justice and the protection of human rights, which include aspects of design and impact beyond immediate engagement with or use of the system_GV.OC-03_GV.RR-01___Medium_
+54_It is interesting that all of the properties related to safety and security are likely to be relevant irrespective of the degree of human engagement. We believe this to be the case because people expect technological tools to be safe and secure regardless of use_GV.OC-02_PR.IR-01___Low_definition
+54_The impact of safety or security failures will vary depending on how the AI system is used, and higher standards are typical for more high-stakes settings_ID.RA-05_GV.OC-02_GV.RM-02__Medium_
+54_The segmentation of the properties of trustworthiness across parts of the AI lifecycle, including connecting them to available tools and resources for implementation as found in the NIST AI RMF, is intended to provide further nuance and practicality_GV.OC-01_GV.RM-01___Low_definition
+54_Further research would be useful to pilot the use of this framework with organizational teams and to develop case studies for using the taxonomy across different domains_GV.OC-01_ID.IM-01___Low_definition
+54_Higher standards are necessary when dealing with sensitive data or operating in high-stakes environments where failures could have severe consequences_ID.RA-05_GV.RM-02_GV.OC-03__Medium_

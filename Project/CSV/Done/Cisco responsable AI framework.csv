@@ -1,0 +1,41 @@
+Page;Extract;Confidence Level
+1;"At Cisco, we appreciate that Artificial Intelligence (AI) can be leveraged to power an inclusive future for all. We also recognize that by applying this technology, we have a responsibility to mitigate potential harm.";Medium (definition)
+1;"In practice, we strive to bring these principles to life by combining Security by Design, Privacy by Design, and Human Rights by Design to surface and mitigate risks to provide AI that is responsible and trustworthy.";High
+2;"Incorporate security, privacy, and human rights principles into AI design, leveraging the existing Cisco Secure Development Lifecycle.";High
+2;"Require assessments for relevant AI use cases, models, and functions to identify, prevent, and mitigate potential risks, including risks to privacy, security, and human rights that meet or exceed assessment standards in the markets in which we operate.";High
+2;"Leverage security, data breach, and privacy incident response system to manage reported AI incidents.";High
+2;"Assign and report incidents to the AI Governance Team to analyze and engage relevant team for resolution.";High
+2;"Track and report AI incidents and share findings and remediation steps to the original submitter or a broader group of stakeholders, customers, employees, and partners.";High
+2;"Establish AI governance practices with specific focus on proactively supporting and leading Cisco to deliver AI in a responsible and trustworthy manner.";Medium
+2;"Work with governments and regulatory bodies to understand global perspectives on AI's benefits and risks.";Medium
+2;"Monitor, track, and influence AI-related legislation, emerging policy, standards, and regulations when and as appropriate.";High
+2;"Partner with cutting-edge research institutions, industry associations, and civil society organizations to develop best practices for AI development and governance from technical, organizational, social, and design perspectives.";High
+2;"We work to continuously improve our framework to support fair, explainable, and transparent results of the AI systems we develop and use.";Medium
+2;"Provide leadership oversight through a Responsible AI Committee of senior executives across Cisco engineering, sales, privacy, security, human rights, legal, government affairs, human resources, and other functions.";High
+2;"Advise Cisco on Responsible AI practices and oversees Responsible AI Framework adoption.";Medium
+2;"Review sensitive or high-risk uses of AI proposed by our business units and incident reports for bias or discrimination.";High
+2;"Participate in leading industry forums, including those involving open source and other technology standardization bodies to advance the responsible use of AI.";Medium
+3;"Cisco seeks to identify and remediate any harmful bias within our algorithms, training data, and applications that are directly involved in consequential decisions; that is, decisions that could have a legal or human rights impact on individuals or groups.";High
+3;"Cisco's goal is to inform users as appropriate when and how AI is employed in our technologies; the intent of the AI; the model class; data use and demographics; and the security, privacy, and human rights controls applied to the use in a manner that is accessible, transparent, and understandable. We also share how to get more information about our use of AI.";High
+3;"Testing to promote positive outcomes across demographic, linguistic, and geographic groups is an important step in this process.";Medium
+3;"Achieving better decisions requires assurance that the training data represents the demographics of individuals or groups across the full spectrum of diversity to which AI will be applied.";High
+3;"Companies that develop, deploy, and use AI solutions must take responsibility for their work in this area by implementing appropriate governance and controls to ensure that their AI solutions operate as intended and to help prevent inappropriate use.";High
+3;"Providing communication channels for users to voice their concerns increases the comfort level with AI and serves a useful function for companies to continuously improve their models.";High
+3;"The Cisco Responsible AI Framework requires teams to account for privacy, security, and human rights impacts from the very beginning of development through the end of the AI lifecycle.";High
+3;"Applications of AI often use personal data that could impact individual privacy and civil liberties if not managed properly.";Low (definition)
+3;"When AI uses personal data or makes decisions for or about a person, privacy controls must be designed into the supporting technology to assure that personal data usage is permitted, purpose-aligned, proportional, and fair.";High
+3;"Those controls must be maintained throughout the data and solution's lifecycle.";High
+3;"Accountability measures include requiring documentation of AI use cases, conducting impact assessments, and providing appropriate oversight by a group of cross-functional leaders.";High
+3;"We have also developed mechanisms for our customers to provide feedback and raise any concerns for review and action.";Medium
+3;"We regularly update these practices to reflect the latest technological advancements, including those in AI.";Medium
+3;"Cisco has built privacy engineering practices into the Cisco Secure Development Lifecycle (CSDL).";Medium
+3;"These practices help us design, build, and operate privacy-enhancing features, functionality, and processes into our product and service offerings.";High
+3;"When processing personal information, Cisco is committed to following the principles set forth in our Global Personal Data Protection and Privacy Policy, which aligns with applicable international privacy laws and standards.";High
+3;"AI systems must be resilient and contain protections from malicious actors by using secure development lifecycle controls similar to those used in standard software development.";High
+3;"Protection against security threats includes testing the resilience of AI systems against cyber-attacks; sharing information about vulnerabilities and cyber-attacks; and protecting the privacy, integrity, and confidentiality of personal data.";High
+3;"Cisco is building AI technologies that leverage our secure development lifecycle program to address the unique challenges of AI.";Medium
+3;"We leverage our existing expertise by applying security controls that improve attack resiliency, data protection, privacy, threat modeling, monitoring and third-party compliance.";High
+4;"As part of our AI Impact Assessment, we review AI-based solutions to determine if adequate controls are embedded in their lifecycle to maintain consistency of purpose and intent when operating in varying conditions and use cases.";High
+4;"Where we identify that an AI solution has potential impacts on safety or otherwise is potentially a higher risk use, we undertake additional validation and testing, and impose additional controls.";High
+4;"As we continue to innovate across our product and service offerings with secure solutions that meet our customers' needs and deliver business value, we also strive to meet the highest standards of transparency, fairness, accountability, privacy, security, and reliability.";Medium
+4;"We do this as part of our commitment to respect human rights, encourage innovation, and reflect Cisco's purpose to power an inclusive future for all.";Low (definition)

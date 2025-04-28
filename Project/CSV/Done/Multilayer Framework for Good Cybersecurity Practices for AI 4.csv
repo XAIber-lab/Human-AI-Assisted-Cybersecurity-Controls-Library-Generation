@@ -1,0 +1,23 @@
+page;text;confidence
+30;"three MS reported having mechanisms concerning R & D, innovation and testing dedicated to AI security";low,definition
+31;"According to the AI Act, AI providers will be obliged to inform NCAs about serious incidents or breaches as soon as they become aware of them, along with any recalls or withdrawals of AI systems from the market";high
+31;"AI threats are shared through existing mechanisms, provided by the national units on threat intelligence";medium
+31;"regular cybersecurity procedures and mechanisms should be used and that information will then be shared with existing ISACs when appropriate";medium
+31;"uses its own guidelines and a set of rules on how to maintain and develop emerging and disruptive technologies, including AI, without national security disruption";medium
+31;"High-risk AI systems should perform consistently throughout their life cycle and meet an appropriate level of cybersecurity in accordance with the generally acknowledged state of the art. The level of accuracy and accuracy metrics should be communicated to the users";high
+32;"all public sector organisations and all medium and large-sized enterprises that operate AI systems are obliged to maintain a registry with information about their AI systems (AI systems register), containing the measures taken by the organisation or enterprise to ensure the safe usage and operation of its AI systems";high
+32;"creation of a legislative framework for ethical and credible AI, focusing also on cybersecurity requirements";low,definition
+33;"According to the AI Act, to ensure a level of cybersecurity appropriate to the risks, suitable measures would have to be taken by the providers of high-risk AI systems, also considering as appropriate the underlying ICT infrastructure";high
+33;"regular publishing of criteria catalogues to assess cybersecurity, also for AI, in a cloud environment";medium
+33;"all public sector organisations that acquire AI systems must perform algorithmic impact assessments and data protection impact assessments before the first use of the systems";high
+36;"The report provides a framework (FAICP) consisting of three layers (basic cybersecurity relevant to AI, AI-specific cybersecurity and sector-specific cybersecurity for AI) that categorises the various identified best practices and standards";medium,definition
+36;"AI systems are hosted by an ICT infrastructure and, as such, the stakeholders need to first conduct their basic cybersecurity practices (Layer I). Then they need to pay attention to additional cybersecurity challenges that the AI systems reveal due to their dynamic and socio-technical nature and complement their efforts with additional cybersecurity practices (Layer II). Finally, the use of AI systems in various economic sectors require further cybersecurity practices to be applied (Layer III)";high
+36;"Integrity of data sources and data. The trustworthiness of AI algorithms relies on the integrity of the data and the data sources that generate this data, therefore we need to dynamically and continuously assess them before using them";high
+36;"Continuous monitoring of the data life cycle security. All processes in data management need to be assessed, from data collection to labelling to cleaning to using and storing";high
+36;"Longitudinal risk assessment. AI systems continue to learn and consequently evolve after their deployment, meaning that vulnerabilities can be exploited at various stages of their life cycle and thus risk evaluation cannot be static";high
+36-37;"Collaboration and interdisciplinarity. Multi-perceptive approaches are needed for the development of trustworthy AI with clear design principles that meet societal and human requirements and specificities";medium
+37;"Global framework for AI ethics. The AI Act is based on the EU ethical principles for AI";low,definition
+37;"Ethical measurements, KPIs and AI design best practices need to be developed and disseminated to guide AI designers and developers to improve AI security";medium
+37;"AI can help security teams prepare for the eventual development of AI-driven cybercrimes";low,definition
+37;"workers will likely remain in high demand, but AI will change their roles";low,definition
+37;"Collaboration of experts representing various disciplines (sociologists, psychologists, data scientists, computer scientists and cybersecurity engineers) is needed to be able to design, implement, operate, measure and audit human-centric AI systems";high

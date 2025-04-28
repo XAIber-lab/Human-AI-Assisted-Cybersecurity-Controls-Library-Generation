@@ -1,0 +1,27 @@
+text_extract;highlight_color
+"The level of explainability needed from an AI system is highly specific to its context, including the extent to which an application is safety-critical. The level and type of explainability required will likely vary depending on whether the intended audience of the explanation is a regulator, technical expert, or lay person.";green
+"A technical expert designing self-driving vehicles would need to understand the system's decision-making capabilities to test, assess and refine them. In the same context, a lay person may need to understand the decision-making process only in order to use the vehicle safely.";yellow
+"A regulator may need information about how the system operates in order to allocate responsibility – similar to the level of explainability currently needed to hold human drivers accountable.";yellow
+"The ICO and the Alan Turing Institute issued co-developed guidance on explaining decisions made with AI, giving organisations practical advice to help explain the processes, services and decisions delivered or assisted by AI to the individuals affected by them.";yellow
+"If the vehicle malfunctioned and caused a harmful outcome, a regulator may need information about how the system operates in order to allocate responsibility";green
+"The MHRA's Project Glass Box work is addressing the challenge of setting medical device requirements that take into account adequate consideration of human interpretability and its consequences for the safety and effectiveness for AI used in medical devices";yellow
+"The joint guidance could address the cross-cutting principles relating to fairness, appropriate transparency and explainability, and contestability and redress in the context of the use of AI systems in recruitment or employment.";green
+"Clarifying the type of information businesses should provide when implementing such systems";green
+"Identifying appropriate supply chain management processes such as due diligence or AI impact assessments";green
+"Suggesting proportionate measures for bias detection, mitigation and monitoring";green
+"Providing suggestions for the provision of contestability and redress routes.";green
+"While potentially useful, such systems may discriminate against certain groups that have historically not been selected for certain positions";red
+"In their published guidance regulators could, where appropriate, refer businesses to existing technical standards on transparency (e.g. IEEE 7001-2021), as well as standards on bias mitigation (e.g. ISO/IEC TR 24027:2021)";green
+"Initially, the principles will be issued by government on a non-statutory basis and applied by regulators within their remits. We will support regulators to apply the principles using the powers and resources available to them.";yellow
+"In implementing the new regulatory framework we expect that regulators will assess the cross-cutting principles and apply them to AI use cases that fall within their remit.";green
+"Issue relevant guidance on how the principles interact with existing legislation to support industry to apply the principles. Such guidance should also explain and illustrate what compliance looks like.";green
+"Support businesses operating within the remits of multiple regulators by collaborating and producing clear and consistent guidance, including joint guidance where appropriate.";green
+"For example, it may be difficult to assess the fairness of an algorithm's outputs without access to sensitive personal data about the subjects of the processing";yellow
+"Regulators will need to use their expertise and judgement to prioritise and apply the principles in such cases, sharing information where possible with government and other regulators about how they are assessing the relevance of each principle";green
+"A pro-innovation approach to regulation involves tolerating a certain degree of risk rather than intervening in all cases";green
+"Government needs the ability to assess and prioritise AI risks, ensuring that any intervention is proportionate and consistent with levels of risk mitigation activity elsewhere across the economy or AI life cycle";green
+"The central risk function will identify, assess, prioritise and monitor cross-cutting AI risks that may require government intervention";green
+"Support smaller regulators that lack technical AI expertise to better understand AI risks";green
+"The central risk function will bring together cutting-edge knowledge from industry, regulators, academia and civil society – including skilled computer scientists with a deep technical understanding of AI.";yellow
+"Given the importance of risk management expertise, we will seek inspiration and learning from sectors where operational risk management is highly developed. This will include looking for examples of how failures and near misses can be recorded and used to inform good practice.";green
+"Regulators will have a key role in designing the central risk framework and ensuring alignment with their existing practices";yellow

@@ -1,0 +1,20 @@
+page_text_First proposal_Second proposal_Third proposal_labels_confidence level_definitions
+7_"The Partnership asserts the importance of AI operating within secure constraints"PR.PS-01; PR.PS-02_PR.IR-01_ID.RA-01_none_medium_no
+7"The Montreal Declaration argues that those developing AI should assume their responsibility by working against the risks arising from their technological innovations"ID.RA-05; ID.RA-06_GV.RR-01_GV.RM-01_none_high_no
+7"humans should choose how and whether to delegate decisions to AI systems, to accomplish human-chosen objectives"GV.RR-02_GV.OC-02_PR.AA-05_none_high_no
+7"Any delegation should also remain overridable in principle"PR.AA-05_GV.RR-02_none_none_high_no
+7"warns against the risk of bias in datasets used to train AI systems"ID.RA-01_PR.DS-01_none_data protection_medium_no
+7"AI should contribute to global justice and equal access to the benefits"GV.OC-02_GV.RM-01_none_none_medium_no
+8"need to understand and hold to account the decision-making processes of AI"GV.RR-01; GV.RR-02_GV.OV-03_none_transparency_high_no
+8"we must know whom to hold accountable in the event of a serious, negative outcome, which would require in turn adequate understanding of why this outcome arose"GV.RR-02_RS.AN-03_DE.AE-04_transparency_high_no
+9"Every company, government agency, and academic institution designing, developing or deploying AI has an obligation to do so in line with an ethical framework"GV.PO-01_GV.RR-01_GV.OC-03_none_high_no
+3"You should consider AI ethics and safety throughout all phases"GV.PO-01_GV.RM-01_ID.RA-05_none_high_no
+3"During training, if personal data are used, the data subject must be clearly informed on the possibility that such data be reidentifiable from the data of a model"PR.DS-01_GV.OC-03_none_privacy; transparency_high_no
+3"Consider technologies and mechanisms that enable each stakeholder, such as businesses, the government and individuals, to access real-time data and conduct efficient and effective monitoring"DE.CM-09_DE.AE-06_RS.CO-03_transparency_high_no
+3"consider, where appropriate, the perspectives of relevant stakeholders in particular persons whose rights may be impacted"GV.OC-02_GV.RM-01_none_none_medium_no
+3"Privacy values such as anonymity, confidentiality, and control generally should guide choices for AI system design, development, and deployment"PR.DS-01; PR.DS-02_GV.PO-01_none_privacy_high_no
+3"ensure alignment of approach across relevant regulators in respect of AI"GV.OC-03_GV.SC-02_none_none_medium_no
+3"take due account of the context and intended use of artificial intelligence systems, in particular as concerns risks to human rights, democracy, and the rule of law"ID.RA-05_GV.OC-01_GV.RM-01_none_high_no
+3"evaluate the accuracy of your data, how it was collected, and consider alternative sources"ID.RA-09_PR.DS-01_ID.AM-07_data protection_high_no
+3"If the data controller uses third party data sets for training an AI component, it must act with due diligence for verifying that the original data source is legitimate, including the purchase or service agreement, or the corresponding contractual clauses that claim evidences and commitments of such legitimacy"GV.SC-06; GV.SC-07_ID.RA-09_PR.DS-01_data protection_high_no
+3"You should thoroughly understand the problem and the needs of different users, assess whether an AI system is the right tool to address the user needs, and understand the processes and how the AI model will connect with the wider service"_GV.OC-02_ID.AM-02_GV.RM-01_none_high_no

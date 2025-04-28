@@ -1,0 +1,22 @@
+text_extract;highlight_color
+"The Partnership asserts the importance of AI operating within secure constraints";yellow
+"The Montreal Declaration argues that those developing AI should assume their responsibility by working against the risks arising from their technological innovations";green
+"humans should choose how and whether to delegate decisions to AI systems, to accomplish human-chosen objectives";green
+"Any delegation should also remain overridable in principle";green
+"warns against the risk of bias in datasets used to train AI systems";yellow
+"argues for the need to defend against threats to solidarity";red
+"The Montreal Declaration articulates the need for a balance between human- and machine-led decision-making";yellow
+"AI should contribute to global justice and equal access to the benefits";yellow
+"need to understand and hold to account the decision-making processes of AI";green
+"we must know whom to hold accountable in the event of a serious, negative outcome, which would require in turn adequate understanding of why this outcome arose";green
+"Every company, government agency, and academic institution designing, developing or deploying AI has an obligation to do so in line with an ethical framework";green
+"You should consider AI ethics and safety throughout all phases";green
+"During training, if personal data are used, the data subject must be clearly informed on the possibility that such data be reidentifiable from the data of a model";green
+"Consider technologies and mechanisms that enable each stakeholder, such as businesses, the government and individuals, to access real-time data and conduct efficient and effective monitoring";green
+"consider, where appropriate, the perspectives of relevant stakeholders in particular persons whose rights may be impacted";yellow
+"Privacy values such as anonymity, confidentiality, and control generally should guide choices for AI system design, development, and deployment";green
+"ensure alignment of approach across relevant regulators in respect of AI";yellow
+"take due account of the context and intended use of artificial intelligence systems, in particular as concerns risks to human rights, democracy, and the rule of law";green
+"evaluate the accuracy of your data, how it was collected, and consider alternative sources";green
+"If the data controller uses third party data sets for training an AI component, it must act with due diligence for verifying that the original data source is legitimate, including the purchase or service agreement, or the corresponding contractual clauses that claim evidences and commitments of such legitimacy";green
+"You should thoroughly understand the problem and the needs of different users, assess whether an AI system is the right tool to address the user needs, and understand the processes and how the AI model will connect with the wider service";green

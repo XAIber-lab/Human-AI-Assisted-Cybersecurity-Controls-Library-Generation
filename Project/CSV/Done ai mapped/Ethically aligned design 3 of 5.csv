@@ -1,0 +1,59 @@
+6_Autonomous and intelligent systems (A/IS) research and design must be developed against the backdrop that technology is not neutral. A/IS embody values and biases that can influence important social processes like voting policing and banking. To ensure that A/IS benefit humanity A/IS research and design must be underpinned by ethical and legal norms. These should be instantiated through values-based research and design methods._GV.OC-03_GV.PO-01_GV.RR-01_medium_definition
+
+6_Such methods put human well-being at the core of A/IS development._GV.RR-01_GV.OC-02_GV.PO-01_low_definition
+
+7_Ethics training needs to be a core subject for all those in the STEM field beginning at the earliest appropriate level and for all advanced degrees._PR.AT-01; PR.AT-02_GV.RR-04_PR.PS-06_high_
+
+7_Effective STEM ethics curricula should be informed by experts outside the STEM community from a variety of cultural and educational backgrounds to ensure that students acquire sensitivity to a diversity of robust perspectives on ethics and design._PR.AT-01; PR.AT-02_GV.OC-02_GV.RR-01_high_
+
+7_Such curricula should teach aspiring engineers computer scientists and statisticians about the relevance and impact of their decisions in designing A/IS technologies._PR.AT-02_PR.AT-01_GV.RR-01_high_
+
+7_Ethics education in STEM contexts and beyond should span primary secondary and postsecondary education and include both universities and vocational training schools._PR.AT-01; PR.AT-02_GV.RR-04_GV.PO-01_high_
+
+8_Funding models and institutional incentive structures should be reviewed and revised to prioritize projects with interdisciplinary ethics components to encourage integration of ethics into projects at all levels._GV.RR-03_GV.PO-01_GV.RM-01_high_
+
+8_Establish a leading role for intercultural information ethics (IIE) practitioners in ethics committees informing technologists policy makers and engineers._GV.RR-02_GV.OC-02_GV.RR-01_high_
+
+10_The IEEE and other standards-setting bodies should draw upon existing standards empirical research and expertise to identify priorities and develop standards for the governance of A/IS research and partner with relevant national agencies and international organizations when possible._GV.PO-01_GV.OC-03_GV.SC-01_high_
+
+13_Companies should create roles for senior-level marketers engineers and lawyers who can collectively and pragmatically implement ethically aligned design._GV.RR-02_GV.RR-01_GV.RR-04_high_
+
+13_There is also a need for more in-house ethicists or positions that fulfill similar roles. One potential way to ensure values are on the agenda in A/IS development is to have a Chief Values Officer (CVO)._GV.RR-02_GV.RR-01_GV.RR-03_high_
+
+15_Employees should be empowered and encouraged to raise ethical concerns in day-to-day professional practice._GV.RR-01_GV.RR-02_GV.PO-01_high_
+
+15_To be effective in ensuring adoption of ethical considerations during product development or internal implementation of A/IS organizations should create a company culture and set of norms that encourage incorporating ethical considerations in the design and implementation processes._GV.RR-01_GV.PO-01_GV.RM-01_high_
+
+15_New categories of considerations around these issues need to be accommodated along with updated Codes of Conduct company value-statements and other management principles so individuals are empowered to share their insights and concerns in an atmosphere of trust._GV.PO-01_GV.RR-01_GV.RR-02_high_
+
+17_Engineers should be required to thoroughly document the end product and related data flows performance limitations and risks of A/IS._ID.AM-08_GV.PO-01_ID.RA-01_high_
+
+17_Companies should make their systems auditable and should explore novel methods for external and internal auditing._ID.AM-08_PR.PS-04_GV.OV-03_high_
+
+17_Behaviors and practices that have been prominent in the engineering processes should also be explicitly presented as well as empirical evidence of compliance and methodology used._ID.AM-08_GV.PO-01_GV.OV-03_high_
+
+17_Criteria for such documentation could be: auditability accessibility meaningfulness and readability._ID.AM-08_GV.PO-01_PR.PS-04_medium_
+
+18_Monitor your system's inputs. In line with privacy and data protection requirements you monitor and log inputs to your system to enable compliance obligations audit investigation and remediation in the case of compromise or misuse._DE.CM-09_PR.PS-04_GV.OC-03_high_privacy
+
+25_Local and national educational authorities must work to develop policies surrounding students' personal data with all stakeholders._GV.PO-01_GV.OC-03_PR.DS-01_high_privacy
+
+26_Child data should be held in "escrow" and not used for any commercial purposes until a child reaches the age of majority and is able to authorize use as they choose._PR.DS-01_GV.OC-03_PR.DS-02_high_privacy
+
+26_Governments and organizations need to educate and inform parents of the mechanisms of A/IS and data collection in toys and the possible impact on children in the future._PR.AT-01_GV.OC-02_PR.DS-01_high_privacy
+
+27_A/IS engineers and design teams do not always thoroughly explore the ethical considerations implicit in their technical work and design choices._GV.RR-01_PR.AT-02_GV.PO-01_medium_definition
+
+40_Consider technologies and mechanisms that enable each stakeholder such as businesses the government and individuals to access real-time data and conduct efficient and effective monitoring._DE.CM-09_GV.OC-02_PR.DS-02_high_transparency
+
+42_If personal data are used the data subject must be clearly informed on the possibility that such data be reidentifiable from the data of a model._PR.DS-01_GV.OC-03_PR.DS-02_high_privacy
+
+42_If the data controller uses third party data sets for training an AI component it must act with due diligence for verifying that the original data source is legitimate including the purchase or service agreement._GV.SC-06_PR.DS-01_ID.RA-09_high_
+
+45_Your data scientists and developers maintain an awareness of relevant security threats and failure modes and help risk owners to make informed decisions._PR.AT-02_ID.RA-01_ID.RA-03_high_
+
+47_Secure your infrastructure. You apply good infrastructure security principles to the infrastructure used in every part of your system's life cycle._PR.IR-01_PR.PS-01_ID.AM-08_high_
+
+47_You apply appropriate access controls to your APIs models and data and to their training and processing pipelines in research and development as well as deployment._PR.AA-05_PR.DS-01_PR.DS-02_high_
+
+47_This includes appropriate segregation of environments holding sensitive code or data._PR.AA-05_PR.DS-01_PR.IR-01_medium_

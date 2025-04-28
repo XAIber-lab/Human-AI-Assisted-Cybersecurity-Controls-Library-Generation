@@ -1,0 +1,18 @@
+page;text;confidence_level
+20;"For evasion, tools can be implemented to detect whether a given input is an adversarial example, adversarial training can be used to make the model more robust, and models that are less easily transferable can be used to significantly decrease the ability of a given attacker to properly study the algorithm";high
+20;"For poisoning attacks, processes that maintain the security levels of ML components over time should be implemented, the exposure level of the used model should be assessed, the training data set should be enlarged as much as possible to reduce its susceptibility to malicious samples";high
+20;"Model or data disclosure can be protected by applying proper access control and federated learning to minimise the risk of data breaches";high
+20;"to reduce the level of compromise of ML application components, these should be compliant with protection policies, fully integrated to existing security operations and asset management processes, and evaluated according to the level of security of their foundation blocks";high
+20;"to prevent failure or malfunction of ML applications, employed algorithms should have their bias reduced, should be properly evaluated to ensure that they are resilient to the environment in which they will operate and should encompass explainability strategies";high
+21;"Security testing of AI has some commonalities with security testing of traditional systems, but also provides new challenges and requires different approaches";medium;definition
+21;"security testing of AI does not end at the component level. As for testing of traditional software, its integration with other components of a system needs to be tested as well";high
+21;"non-determinism that may result from self-learning, i.e. AI-based systems may evolve over time and as a consequence, security properties may degrade";medium;definition
+21;"the test oracle problem, where assigning a test verdict is different and more difficult for AI-based systems, since not all expected results are known a priori";medium;definition
+23;"AI systems are multi-disciplinary socio-technical systems and their threats are technical, societal, ethical and legal";low;definition
+23;"AI-specific risk assessment efforts need to consider their unique properties and enhance their robustness, resilience, fairness and explainability, along with preventing loss of transparency, loss of managing bias and loss of accountability";high
+24;"all of these technologies (mostly from foreign manufacturers) have many vulnerabilities and a high number of potential attack points, increasing the cybersecurity challenge";low;definition
+24;"While modern networks are becoming more sophisticated, the telecommunications industry can benefit from data recovered from networks, mobile applications, customer insight, profile, technology, billing data and services through the integration of AI and help the industry in self-optimising networks, security and predictive measures";low;definition
+26;"Networks are managed by AI systems and ML algorithms that predict and detect network abnormalities. AI is also used to optimise and configure various networks, so that it is easy for end users to leverage the advantage of stable network performance";medium
+26;"ML algorithms are used to detect and prevent fraudulent activities. AI-driven alerts can notify customers and telecom operators in real time";medium
+26;"Collaboration among sectoral stakeholders and information sharing and analysis centres (ISACs) is recommended to best address horizontal challenges";high
+26;"Sector-specific issues and mitigation measures need to be listed and published to serve as 'lessons learned' for other sectors";high

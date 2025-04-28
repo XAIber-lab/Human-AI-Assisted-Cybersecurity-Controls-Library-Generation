@@ -1,0 +1,23 @@
+Page 1;Implement a comprehensive risk management framework proportionate to the nature and risk profile of activities. This includes establishing policies, procedures, and training to ensure that staff are familiar with their duties and the organization's risk management practices.
+Page 1;Perform a comprehensive assessment of reasonably foreseeable potential adverse impacts, including risks associated with inappropriate or malicious use of the system.
+Page 1;Implement proportionate measures to mitigate risks of harm, such as by creating safeguards against malicious use.
+Page 1;Implement diverse testing methods and measures to assess and mitigate risk of biased output prior to release.
+Page 1;Employ adversarial testing (i.e., red-teaming) to identify vulnerabilities.
+Page 1;Perform an assessment of cyber-security risk and implement proportionate measures to mitigate risks, including with regard to data poisoning.
+Page 1;Use a wide variety of testing methods across a spectrum of tasks and contexts prior to deployment to measure performance and ensure robustness.
+Page 1;Perform benchmarking to measure the model's performance against recognized standards.
+Page 1;Monitor the operation of the system for harmful uses or impacts after it is made available, including through the use of third-party feedback channels, and inform the developer and/or implement usage controls as needed to mitigate harm.
+Page 1;Maintain a database of reported incidents after deployment, and provide updates as needed to ensure effective mitigation measures.
+Page 1;Systems are subject to risk assessments, and mitigations needed to ensure safe operation are put in place prior to deployment.
+Page 1;Publish information on capabilities and limitations of the system.
+Page 1;Publish a description of the types of training data used to develop the system, as well as measures taken to identify and mitigate risks.
+Page 1;Ensure that systems that could be mistaken for humans are clearly and prominently identified as AI systems.
+Page 1;Firms understand their role with regard to the systems they develop or manage, put in place appropriate risk management systems, and share information with other firms as needed to avoid gaps.
+Page 1;Sufficient information is published to allow consumers to make informed decisions and for experts to evaluate whether risks have been adequately addressed.
+Page 1;System use is monitored after deployment, and updates are implemented as needed to address any risks that materialize.
+Page 1;Systems operate as intended, are secure against cyber attacks, and their behaviour in response to the range of tasks or situations to which they are likely to be exposed is understood.
+Page 1;Signatories also commit to support the ongoing development of a robust, responsible AI ecosystem in Canada. This includes contributing to the development and application of standards, sharing information and best practices with other members of the AI ecosystem, collaborating with researchers working to advance responsible AI, and collaborating with other actors, including governments, to support public awareness and education on AI.
+Page 1;Signatories also commit to develop and deploy AI systems in a manner that will drive inclusive and sustainable growth in Canada, including by prioritizing human rights, accessibility and environmental sustainability, and to harness the potential of AI to address the most pressing global challenges of our time.
+Page 1;Share information and best practices on risk management with firms playing complementary roles in the ecosystem.
+Page 1;Employ multiple lines of defence, including conducting third-party audits prior to release.
+Page 1;Make available to downstream developers and managers guidance on appropriate system usage, including information on measures taken to address risks.

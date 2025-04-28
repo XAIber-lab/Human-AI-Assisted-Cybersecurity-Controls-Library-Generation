@@ -1,0 +1,15 @@
+page 12;fairness - are the models trained and tested on relevant, accurate, and generalisable datasets and is the AI system deployed by users trained to implement them responsibly and without bias
+page 12;accountability - consider who is responsible for each element of the model's output and how the designers and implementers of AI systems will be held accountable
+page 12;privacy - complying with appropriate data policies, for example, the General Data Protection Regulations (GDPR) and the Data Protection Act 2018
+page 12;explainability and transparency - so the affected stakeholders can know how the AI model reached its decision
+page 13;You'll need to make sure your AI system is compliant with GDPR and the Data Protection Act 2018 (DPA 2018), including the points which relate to automated decision making
+page 13;you must follow the safeguards laid out in the GDPR and DPA 2018. This includes making sure you provide users with: specific and easily accessible information about the automated decision-making process
+page 13;a simple way to obtain human intervention to review, and potentially change the decision
+page 13;Remember to make sure your use of automated decision-making does not conflict with any other laws or regulations
+page 14;it's ethical and safe to use the data - refer to the Data Ethics Framework
+page 14;you have a the right sort of data for the AI model to learn from
+page 16;For your AI model to work, it often needs access to a large quantity of data, and more importantly the right kind of data
+page 16;You can assess whether your data is high enough quality for AI using a combination of: accuracy; completeness; uniqueness; timeliness; validity; sufficiency; relevancy; representativeness; consistency
+page 16;If your problem involves supporting an ongoing business decision process, you will need to plan to establish ongoing, up-to-date access to data
+page 16;Remember to follow data protection laws
+page 16;It is also important to address ethical concerns about the use of AI from the start of the procurement process

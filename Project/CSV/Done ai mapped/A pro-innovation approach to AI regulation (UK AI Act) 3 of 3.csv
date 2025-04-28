@@ -1,0 +1,22 @@
+page_text_First proposal_Second proposal_Third proposal_labels_confidence_definitions
+5_Under the UK's pro-innovation AI regulatory framework, regulators may decide to issue specific guidance and requirements for LLM developers and deployers to address risks and implement the cross-cutting principles_GV.PO-01_GV.SC-01_ID.RA-06__high_
+5_This could include guidance on appropriate transparency measures to inform users when AI is being used and the data used to train the model_ID.AM-07_PR.AT-01_GV.OC-02_transparency_high_
+5_LLMs will be a core focus of our monitoring and risk assessment functions and we will work with the wider AI community to ensure our adaptive framework is capable of identifying and responding to developments relating to LLMs_DE.CM-09_ID.RA-03_DE.AE-02__high_
+5_The wide-reaching impact of LLMs through the AI supply chain – together with their general purpose and potential wide ranging application – means they are unlikely to be directly 'caught' within the remit of any single regulator_GV.SC-01_GV.OC-02___low_definition
+5_The AI regulatory framework's monitoring and evaluation function will therefore need to assess the impacts of LLMs_DE.CM-09_ID.RA-04_DE.AE-04__high_
+6_For example, one way of monitoring the potential impact of LLMs could be by monitoring the amount of compute used to train them, which is much easier to assess and govern than other inputs such as data, or talent_DE.CM-03_ID.AM-08___medium_
+6_Life cycle accountability – including the allocation of responsibility and liability for risks arising from the use of foundation models including LLMs – is a priority area for ongoing research and policy development_GV.RR-02_ID.RA-06_GV.RM-03__high_
+6_We will explore the ways in which technical standards and other tools for trustworthy AI can support good practices for responsible innovation across the life cycle and supply chain_ID.IM-01_GV.SC-01_GV.PO-01__medium_
+11_To assure AI systems effectively, we need a toolbox of assurance techniques to measure, evaluate and communicate the trustworthiness of AI systems across the development and deployment life cycle_ID.IM-02_ID.RA-09_PR.PS-06__high_
+11_These techniques include impact assessment, audit, and performance testing along with formal verification methods_ID.RA-01_ID.IM-02_PR.PS-06__high_
+11_The emerging market for AI assurance services and expertise will have an important role to play in providing a range of assurance techniques to actors within the AI supply chain_GV.SC-01_ID.IM-01___medium_
+12_Multiple international and regional standards development organisations are developing, or have already released, AI-specific technical standards, addressing topics such as risk management, transparency, bias, safety and robustness_ID.IM-01_GV.PO-01___high_
+12_Technical standards can be used by regulators to complement sector-specific approaches to AI regulation by providing common benchmarks and practical guidance to organisations_GV.PO-01_ID.IM-01_GV.SC-01__high_
+14_Our AI regulation framework applies to the whole of the UK_GV.OC-01____low_definition
+14_We will continue to engage devolved administrations, businesses, and members of the public from across the UK to ensure that every part of the country benefits from our pro-innovation approach_GV.OC-02_GV.RR-02___medium_
+15_While we expect our principles-based approach to influence the global conversation on AI governance, we are not currently proposing the introduction of new legal requirements_GV.PO-01_GV.OC-03___medium_
+16_The UK's approach to both our domestic regulation and international discussions will continue to be guided by our ambition to develop AI frameworks that champion our democratic values and economic priorities_GV.OC-01_GV.RM-01___medium_
+19_We are committed to an adaptable, iterative approach that allows us to learn and improve the framework_ID.IM-01_GV.OV-02___medium_
+20_Encourage key regulators to publish guidance on how the cross-sectoral principles apply within their remit_GV.PO-01_GV.RR-02___high_
+20_Publish proposals for the design of a central M&E framework including identified metrics, data sources, and any identified thresholds or triggers for further intervention or iteration of the framework_GV.RM-06_ID.IM-01_GV.OV-03__high_
+20_Continue to develop a regulatory sandbox or testbed with innovators and regulators_ID.IM-02_GV.SC-02___medium_
