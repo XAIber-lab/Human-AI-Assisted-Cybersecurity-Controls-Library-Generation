@@ -1,0 +1,99 @@
+Page of the document;text
+13;Identify stakeholders and document how they will be engaged throughout the AI lifecycle.
+13;Establish a process for determining whether the benefits of the system outweigh the risks.
+13;Clearly define and document the system's intended use, objectives, assumptions, and limitations.
+13;Identify appropriate teams and personnel to address identified risks.
+13;Establish a process for reviewing key decisions and system changes made throughout the development and deployment pipeline.
+13;Define performance targets, metrics, and thresholds to measure fairness and other risks.
+13;Establish internal oversight and clear lines of accountability for the risk assessment process.
+13;Document the methodology used to assess AI bias risks and create a record of all assessments.
+13;Establish processes for tracking and managing risks identified through the impact assessment.
+14;Establish processes for documenting the provenance of training data.
+14;Evaluate the quality, representativeness, and sufficiency of input data, including whether additional data may be needed to mitigate bias risks.
+14;Assess whether people involved in the data labeling process have been trained to identify and mitigate potential biases.
+14;Evaluate training data for historical biases and protected class information that may lead to biased outputs.
+14;Assess the potential for bias during data pre-processing, including procedures for handling missing data and outliers.
+15;Assess the robustness and stability of the model on different train–test splits.
+15;Assess whether the model's performance varies across subgroups or if it has disparate impact on vulnerable or legally protected groups.
+15;Evaluate the model's accuracy across subgroups and assess false positive and false negative rates.
+15;Determine whether the system is appropriate for the intended use and defined objectives.
+15;Document model development processes, methodologies, and results to enable governance and external communication.
+16;Assess model for proxy discrimination and evaluate features for correlation with sensitive characteristics.
+16;Identify what forms of bias testing have been performed on the system.
+16;Assess relevant performance metrics and model behavior across demographic groups, environments, and conditions.
+16;Assess interpretability of model decisions and outputs.
+16;Validate the system using a diverse set of inputs that reflect the conditions likely in deployment environments.
+16;Evaluate system for unintended performance issues across groups or negative outcomes on people.
+16;Identify procedures for capturing and addressing end-user feedback.
+17;Evaluate the degree to which a system's performance depends on the specific context in which it is deployed.
+17;Establish processes for performance monitoring and responding to performance degradation.
+17;Identify triggers for re-evaluation and appropriate actions if performance drops below defined thresholds.
+17;Establish processes for when and how to engage with relevant stakeholders and end-users about the system's use and performance.
+17;Evaluate system outputs for consistency with the organization's values.
+19;Define a comprehensive and dynamic data management strategy to ensure the quality and representativeness of training data.
+19;Create a diverse, multidisciplinary team to help identify potential sources of bias throughout the AI lifecycle.
+19;Develop documentation explaining model design choices and rationales.
+19;Implement procedures to promote adherence to the organization's ethical principles and risk tolerances.
+19;Consider the values and norms across different demographics and cultures.
+19;Ensure teams have adequate training to identify and mitigate potential AI bias.
+20;Develop procedures for reviewing the quality of third-party or crowdsourced data for accuracy and potential bias.
+20;Define metrics and document processes related to data quality, representativeness, population coverage, reliability, and accuracy.
+20;Develop procedures for reviewing the quality of third-party or crowdsourced data for accuracy and potential bias.
+20;Establish thresholds for reweighting datasets or creating synthetic data to improve balance and representation.
+20;Establish policies and procedures to protect data subject privacy and mitigate privacy-related harms in data used for AI.
+20;Create a charter for teams documenting roles, responsibilities, and necessary expertise.
+20;Document specifications for datasets to define the meaning, method of measurement, format, and allowed values for each field.
+20;Develop a rubric for model assessments and testing.
+21;Consult with domain experts to establish metrics and procedures for evaluating fairness.
+21;Assess whether model performance is stable across groups and conditions likely to be encountered.
+21;Establish processes to evaluate whether demographic factors impact model performance.
+21;Mitigate possible proxy discrimination by evaluating whether specific features correlate to sensitive characteristics.
+21;Assess and document the model's performance and outputs across diverse populations.
+21;Assess model stability, reliability, and robustness.
+21;Establish procedures to enable testing and auditing of system outputs.
+21;Develop a plan for regular model evaluations to assess ongoing efficacy and risks.
+21;Assess whether model performance or errors vary for different subgroups.
+22;Establish governance mechanisms to oversee AI design choices and build appeal procedures into systems.
+22;Develop processes for capturing and incorporating stakeholder feedback.
+22;Implement procedures to monitor AI system performance and enable human intervention.
+22;Establish processes and metrics for evaluating model stability over time.
+22;Implement safeguards to ensure model performance is stable across groups in the intended use population.
+22;Develop a strategy for engaging users about potential system impacts.
+22;Define clear roles and procedures for investigating and responding to unintended outputs.
+22;Develop a post-deployment monitoring plan to identify and respond to unintended system behaviors.
+22;Establish responsibilities and procedures for investigating harmful or biased model outputs.
+22;Implement processes for flagging, escalating, and resolving potential issues.
+23;Develop guidelines and procedures for integrating human expertise into the decision-making pipeline.
+23;Implement processes for challenging or appealing system outputs.
+23;Consider system limitations, exceptions, and potential failure modes when developing risk mitigation strategies.
+23;Develop protocols for taking systems offline if performance thresholds are exceeded.
+23;Establish processes for investigating and addressing instances of unfair bias.
+23;Implement safeguards and approval mechanisms for high-risk decisions.
+24;Provide clear and timely notice to users about how AI systems are being used.
+24;Make disclosures regarding the role of AI in consequential decision-making processes.
+24;Provide users with information about the factors impacting individual determinations.
+24;Prioritize transparency in high-risk use cases, but balance tradeoffs between transparency and risks to privacy or security.
+24;Provide explanations of AI system outputs in plain language.
+24;Provide users with mechanisms to appeal or seek redress for AI-generated determinations.
+24;Enable AI system outputs to be interrogated to understand key factors and logic informing its determinations.
+25;Provide users of high-risk systems explanations of key factors, confidence measures, and error rates.
+25;Provide clear notices about AI use in physical spaces or user interfaces.
+25;Develop terms of service that articulate permissible system uses.
+25;Maintain documentation about system architecture, training data, and testing methodology.
+25;Conduct privacy impact assessments to evaluate risks to individual privacy.
+25;Provide mechanisms for individuals to access and correct data used to train AI systems.
+25;Implement processes for individuals to challenge the accuracy of personal information and AI-generated inferences.
+25;Develop policies to ensure user data is securely maintained.
+26;Provide information about confidence metrics or error rates to assist users in interpreting model outputs.
+26;Develop procedures for ongoing stakeholder engagement during system operation.
+26;Establish procedures for investigating potentially harmful or biased system behaviors.
+26;Implement safeguards to prevent the collection or use of data for undisclosed purposes.
+26;Provide notice to users about system updates that may impact its performance.
+26;Develop processes for sharing system performance metrics with relevant stakeholders.
+26;Implement procedures for regular testing to identify and mitigate potential biases.
+27;Conduct ongoing testing to evaluate performance drift and concept drift.
+27;Collect disaggregated data about system performance for protected groups.
+27;Document model testing procedures, methodologies and results.
+27;Implement mechanisms to incorporate user and stakeholder feedback into system improvements.
+27;Establish a model maintenance plan and criteria for re-training or adjusting models.
+27;Document and explain changes made to models during re-training or adjustment.

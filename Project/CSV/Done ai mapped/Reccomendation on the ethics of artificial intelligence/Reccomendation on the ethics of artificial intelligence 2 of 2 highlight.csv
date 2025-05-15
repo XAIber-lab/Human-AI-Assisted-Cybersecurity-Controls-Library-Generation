@@ -1,0 +1,78 @@
+text_extract;highlight_color
+"actions based in any way on an AI system should always ultimately be attributable to AI actors corresponding to their role in the life cycle of the AI system";green
+"Appropriate oversight, impact assessment, audit and due diligence mechanisms, including whistle-blowers' protection, should be developed to ensure accountability for AI systems and their impact throughout their life cycle";green
+"learning about the impact of AI systems should include learning about, through and for human rights and fundamental freedoms, meaning that the approach and understanding of AI systems should be grounded by their impact on human rights and access to rights, as well as on the environment and ecosystems";yellow
+"Public awareness and understanding of AI technologies and the value of data should be promoted through open and accessible education, civic engagement, digital skills and AI ethics training";yellow
+"International law and national sovereignty must be respected in the use of data";green
+"Participation of different stakeholders throughout the AI system life cycle is necessary for inclusive approaches to AI governance";yellow
+"Member States should put in place effective measures, including, for example, policy frameworks or mechanisms, and to ensure that other stakeholders adhere to them";green
+"Member States should introduce frameworks for impact assessments, such as ethical impact assessment, to identify and assess benefits, concerns and risks of AI systems, as well as appropriate risk prevention, mitigation and monitoring measures";green
+"Member States and private sector companies should develop due diligence and oversight mechanisms to identify, prevent, mitigate and account for how they address the impact of AI systems";green
+"AI systems identified as potential risks to human rights should be broadly tested by AI actors, including in real-world conditions if needed";green
+"enforceable transparency protocols should be implemented, corresponding to the access to information, including information of public interest held by private entities";green
+"Member States should implement appropriate measures to monitor all phases of an AI system life cycle, including the functioning of algorithms used for decision-making";green
+"The assessment should also establish appropriate oversight mechanisms, including auditability, traceability and explainability";green
+"Such assessments should also be multidisciplinary, multi-stakeholder, multicultural, pluralistic and inclusive";yellow
+"Member States should publicly promote the best practices of, and cooperation with, researchers and companies who develop AI in an ethical manner";yellow
+"Member States should ensure that governance mechanisms are inclusive, transparent, multidisciplinary, multilateral and multi-stakeholder";yellow
+"Member States should ensure that harms caused through AI systems are investigated and redressed, by enacting strong enforcement mechanisms and remedial actions";green
+"The auditability and traceability of AI systems should be promoted";green
+"governance should include aspects of anticipation, and effective protection, monitoring of impact, enforcement and redress";green
+"Member States and public authorities should carry out transparent self-assessment of existing and proposed AI systems";green
+"Such a mechanism might include different levels of audit of systems, data, and adherence to ethical guidelines and to procedural requirements";green
+"These mechanisms should also include a regular monitoring component to ensure system robustness and continued integrity and adherence to ethical guidelines over the entire life cycle of the AI system, requiring re-certification if necessary";green
+"Member States should strengthen their institutional capacities to deliver on this commitment and should collaborate with researchers and other stakeholders to investigate, prevent and mitigate any potentially malicious uses of AI systems";green
+"Member States should set clear requirements for AI system transparency and explainability so as to help ensure the trustworthiness of the full AI system life cycle";green
+"Member States should encourage public entities, private sector companies and civil society organizations to involve different stakeholders in their AI governance";yellow
+"Member States should put in place mechanisms to require AI actors to disclose and combat any kind of stereotyping in the outcomes of AI systems and data";green
+"ultimate responsibility and accountability must always lie with natural or legal persons";green
+"regulatory frameworks should be consistent with the principle of human oversight and establish a comprehensive approach focused on AI actors";green
+"Member States should develop, review and adapt, as appropriate, regulatory frameworks to achieve accountability and responsibility for the content and outcomes of AI systems";green
+"Member States should ensure compliance with human rights law, standards and principles throughout the life cycle of AI systems";green
+"Member States should implement policies to promote and increase diversity and inclusiveness";yellow
+"Member States should work to develop data governance strategies that ensure the continual evaluation of the quality of training data for AI systems including the adequacy of the data collection and selection processes, proper data security and protection measures";green
+"Member States should put in place appropriate safeguards to protect the right to privacy in accordance with international law";green
+"Member States should strongly encourage all AI actors, including business enterprises, to follow existing international standards and, in particular, to carry out adequate privacy impact assessments";green
+"Privacy should be respected, protected and promoted throughout the life cycle of AI systems";green
+"Member States should ensure that individuals retain rights over their personal data and are protected by a framework";green
+"effective and meaningful accountability schemes and mechanisms; the full enjoyment of the data subjects' rights and the ability to access and erase their personal data in AI systems";green
+"an effective independent oversight as part of a data governance mechanism which keeps individuals in control of their personal data";green
+"Member States should establish their data policies or equivalent frameworks, or reinforce existing ones, to ensure full security for personal data and sensitive data";green
+"Member States should promote open data";red
+"Standards for annotating datasets should be encouraged, including disaggregating data on gender and other bases";yellow
+"Member States should promote and facilitate the use of quality and robust datasets for training, development and use of AI systems, and exercise vigilance in overseeing their collection and use";green
+"ensure that publicly funded or publicly held data and source code and data trusts, to support the safe, fair, legal and ethical sharing of data";green
+"Member States should assess and address the impact of AI systems on labour markets";yellow
+"Member States and business enterprises should assess the direct and indirect environmental impact throughout the AI system life cycle";yellow
+"when choosing AI methods, given the potential data-intensive or resource-intensive character of some of them and the respective impact on the environment, Member States should ensure that AI actors favour data, energy and resource-efficient AI methods";green
+"if safeguards accompanying an AI application can support the justification for its use. If this cannot be done, the precautionary principle must be favoured, and in instances where there are disproportionate negative impacts, AI should not be used";green
+"Ethical Impact Assessment should include a transversal gender perspective";yellow
+"Member States should ensure that the human rights and fundamental freedoms of girls and women, and their safety and integrity are not violated at any stage of the AI system life cycle";green
+"Member States should have dedicated funds from their public budgets linked to financing gender-responsive schemes";red
+"AI systems used in learning should be subject to strict requirements when it comes to the monitoring, assessment of abilities, or prediction of the learners' behaviours";green
+"The data handed over to acquire knowledge collected during the learner's interactions with the AI system must not be subject to misuse, misappropriation or criminal exploitation";green
+"Member States should develop AI ethics curricula for all levels";yellow
+"Member States should promote and support AI research, notably AI ethics research";yellow
+"Member States should ensure that AI researchers are trained in research ethics and require them to include ethical considerations in their designs, products and publications";green
+"Member States should ensure that any future developments with regards to AI technologies should be based on rigorous and independent scientific research";green
+"Member States should encourage scientific communities to be aware of the benefits, limits and risks of their use";yellow
+"Member States should use AI systems to improve access to information and knowledge";red
+"Member States should ensure that AI actors respect and promote freedom of expression as well as access to information with regard to automated content generation, moderation and curation";green
+"Member States should invest in and promote digital and media and information literacy skills to strengthen critical thinking";yellow
+"Member States should ensure that the development and deployment of AI systems related to health is regulated to the effect that they are safe, effective, efficient, scientifically and medically proven";green
+"Member States should establish research on the effects and regulation of potential harms to mental health related to AI systems";yellow
+"Member States should pay particular attention in regulating prediction, detection and treatment solutions for health care in AI applications by: ensuring oversight to minimize and mitigate bias; ensuring that the professional, the patient, caregiver or service user is included as a "domain expert" in the team in all relevant steps when developing the algorithms; paying due attention to privacy";green
+"Member States should ensure effective mechanisms so that those whose personal data is being analysed are aware of and provide informed consent";green
+"ensuring that the human care and final decision of diagnosis and treatment are taken always by humans while acknowledging that AI systems can also assist in their work";green
+"Member States should ensure that users can easily identify whether they are interacting with a living being, or with an AI system imitating human or animal characteristics";green
+"Member States should develop guidelines for human-robot interactions and their impact on human-human relationships";yellow
+"Special attention should be paid to the possibility of using AI to manipulate and abuse human cognitive biases";green
+"Member States should ensure that human-robot interactions comply with the same values and principles that apply to any other AI systems";green
+"Processes for monitoring and evaluation should ensure broad participation of all stakeholders, including vulnerable people or people in vulnerable situations";green
+"The monitoring and assessment of the impact of AI systems and related AI ethics policies and practices should be carried out continuously in a systematic way proportionate to the relevant risks";green
+"appropriate tools and indicators should be developed for assessing the effectiveness and efficiency thereof against agreed standards, priorities and targets";green
+"Social, cultural and gender diversity should be ensured, with a view to improving learning processes and strengthening the connections between findings, decision-making, transparency and accountability for results";yellow
+"Data collection and processing should be conducted in accordance with international law, national legislation on data protection and data privacy";green
+"Member States may wish to consider possible mechanisms for monitoring and evaluation, such as an ethics commission, AI ethics observatory, repository covering human rights-compliant and ethical development of AI systems";green
+"an assessment guide for all AI actors to evaluate their adherence to policy recommendations mentioned in this document";green
+"Member States should respect, promote and protect the ethical values, principles and standards regarding AI that are identified in this Recommendation";green

@@ -1,0 +1,60 @@
+Page of the document;Text
+31;"During training, if personal data are used, the data subject must be clearly informed on the possibility that such data be reidentifiable from the data of a model, or, as established in Article 11.2 of the GDPR, that such reidentification not be possible."
+31;"Certification schemes may cover several aspects regarding the use of AI and be tools to prove carefulness, the GDPR establishes in Article 42 the possibility to develop specific certification mechanisms in terms of data protection, seals and marks of data protection as tools to prove compliance with the GDPR, as explained in Recital 100, to increase the transparency of personal data processing."
+32;"The data controllers must provide sufficient information to the data subjects with regard to the processing they are being subject to, as well as information on the mechanisms enabling a request of a human intervention in the assessment or questioning of the decision adopted by the system automatically, notwithstanding the provisions in Articles 13 and 14 of the GDPR and which have been described in the section "Information" of this document."
+32;"Data controllers adopting this type of solutions and systems must provide precise information and specific training to their personnel on the limitations of the AI system."
+32;"Whenever the processing is a tool that helps in decision-making, it is necessary to adopt measures to manage the risk that the humans behave like a mere link to the inferences made by the AI solution. Such measures include information on the operator (as indicated above), training and behaviour audits."
+32;"Errors on interpretability by the operators must be prevented. The inferred values must be presented in such a way that they reflect the reality of the inference and its limits. Such information must be given to the subsequent phases of the processing, carried out by humans or automatic. At the time to operate the system, it is necessary to offer real-time information to the operator on the accuracy values and/or quality values of the information inferred at each time. Furthermore, when the information inferred does not reach the minimum quality thresholds, it must be explicitly noticed that such information is not valid or that it has no value"
+32;"In the event that the solutions are released by a third party, the latter must provide sufficient information to the controller so that the controller may manage such risks as well as information on the best way to proceed in this regard."
+33;"The controller must take into account that, even if such users may be a minority, alternative mechanisms must be put into place in order to avoid exclusion of a subject on the grounds that the AI solution is unable of capturing the biometric characteristics of the data subjects"
+35;"The tests of the AI component guarantee that the design and development results comply with the requirements of the component. The scope of the validation of the processing extends even further. It should garantee that the resulting products and services meet the requirements regarding a specific application or envisaged use"
+35;"The validation of the processing including an AI component must be performed under conditions reflecting the real context where the processing is expected to be deployed"
+35;"The validation process requires a periodic review, taking into account that such context or the processing itself could change and evolve."
+36;"Pursuant to Recital 59, personal data must only be processed if the purpose of the processing may not reasonably be fulfilled by other means."
+36;"The data subjects, the data categories, and the retention period of the data that may be processed are linked to the legal grounds for such processing."
+36;"Minimisation is the process of optimising the processing from the point of view of data protection, analysing the needs of the data processing in the different phases of the process and in compliance with the requirements above for the purposes of:
+
+Limiting the extent of the data categories that are used in each phase of the processing to categories that are strictly necessary and relevant.
+Limiting the level of detail or precision of the information, the granularity of the collection in terms of time and frequency and the collection date of the information used.
+Limiting the extent of the number of data subjects whose data are being processed.
+Limiting accessibility to the several data categories to the controller's/ processor's personnel or even to the final user (if there are data pertaining to third parties in the AI models) in all processing phases."
+
+36;"It is necessary to assess how to implement such principles at the time to design the AI solution and the processing, and to describe and analyse the life cycle of the data throughout every phase of the processing. This analysis does not only focus on the AI solution from a technical point of view, but rather on the global processing where such solution is included. It must take into account both automated aspects and non-automated aspects of each and every phase of the processing."
+36-37;"In case of ML, it is necessary to balance the need of the data to train the ML systems in regarding the risk for the rights and freedoms of the data subjects. The degree of quality of the training data is not only measured by the mere accumulation of data, but through relevance, actuality, reliability, soundness and use the categories of data that are relevant for the intended processing. In order to apply such proportionality criterion, it is advisable to use professional profiles with expertise on data science, a discipline that goes beyond the specialisation in ML algorithms, but with skills on the principles of data protection, and in cooperation with the specialists in business logic and the data protection officer, if a data protection officer has been appointed"
+37-38;"There are several AI solutions data minimisation techniques, some of them specifically for ML, and they are in continuous development:
+
+Data assessment to check their high-quality and high predicting capacity for the relevant application.
+Critical analysis of the extent of the data categories used in each phase of the AI-based solution.
+Erasure of non-structured data or unneeded information that has been collected during the pre-process of the information.
+Identification and erasure, during the training process, of such data categories with no significant influence on the learning or the result of the inference.
+Suppression of non-relevant conclusions linked to a data subject during the training process, for example, in the event of non-supervised training.
+Use of verification techniques that require a lesser number of data, such as crossed validation.
+Analysis and configuration of hyperparameters of the algorithm that may have an influence on the amount or extent of the data processed, with the aim to minimise them.
+Use of federated learning models instead of centralised learning models.
+Application of differential privacy strategies.
+Training with encrypted data using homomorphic techniques.
+Data aggregation.
+Anonymisation and pseudonymisation, not only in the communication of the data, but also in training data, possible personal data into the model and during the processing of the inference."
+
+38;"For each phase of a processing, regardless of whether the phase includes an AI component or not, a different extent of the total personal data regarding the same data subject needs to be processed. In general terms, it is not necessary to access the full extent of the available personal data in every phase. Therefore, data minimisation strategies used for every phase of the processing should differ, and they should likewise differ in each of the phases of the life cycle of the AI-based solution: the training phase, the inference phase or the model evolution phase. It should be taken into account the limitations established by the legal basis itself."
+39;"The GDPR established in Article 32 that both the controller and the processor shall apply suitable technical and organisational measures to guarantee a suitable security level with regard to the data subjects' rights and freedoms. Such measures shall be adapted taking into account the costs of the implementation, the nature, the scope, the context and the purposes of the processing, as well as the variable risks of probability and severity. There is no standard solution for all processings and much less for those including an AI component. The solution must be assessed through a risk analysis that must be related to the risks for the rights and freedoms of the data subjects from the point of view of data protection."
+39-40;"Apart from the analysis of the security measures that are common to any system there are specific guarantees for AI-based processing. Such guarantees should address specific threats derived from the fact that the IA components is developed by third parties or from the data disclosure to third parties.
+There are attack and defence typologies with regard to AI components that have been analysed. Among the different security measures, it is advisable to pay careful attention to those managing the following types of threats:
+
+Access and manipulation of the training dataset, for example, through poisoning techniques with adverse patterns.
+Inclusion of Trojans and backdoors during the development of the AI, either in the code itself or in the development tools.
+Manipulation of the user API that allow to access the model, both at the level of black box and white box, to manipulate model parameters, leaking of the model to third parties, integrity attacks or availability of the inferences.
+Attacks by "adversarial machine learning" so that an analysis on the robustness and control of the feed of data to the model should be necessary.
+Attacks through pattern imitation that are known to be admitted by the system.
+Reidentification of the personal data included within the model (belonging inference or inversion of the model) by internal and external users.
+Fraud or deceive to the AI by data subjects, especially in such cases where in may entail a damage for other data subjects, which implies the necessity to perform an analysis of the robustness in the light of such actions and the performance of audits.
+Leak to third parties of the profiling results or the decisions inferred by the AI (also related to the user's APIs).
+Leak or access to the logs resulting from the inferences generated while interacting with the data subjects."
+
+40;"The existence of log files or activity records, the performance of audits (be they automated or manual) and the certification of the process are inherent to the "accountability" strategies or proactive responsibility strategies, but they also arise out of the legal requirements that are specifically established in the sectorial regulation."
+40;"The log files shall be necessary to support the audit processes and the security mechanisms, with regard to data protection, said log files shall provide evidence in order to:
+
+Establish who and under what circumstances accesses the personal data that may be included within the model.
+Provide traceability with regard to the update of the inference models, the communications of the user API with the model and the detection of abuse or intrusion attempts.
+Provide traceability to enable governance in data disclosure among all intervening parties in the AI-based solution with regard to the obligations arising out of Recital 66 of the GDPR.
+Provide a follow-up of the quality parameters of the inference when the AI is used for decision-making or in assistance processes to the decision-making."

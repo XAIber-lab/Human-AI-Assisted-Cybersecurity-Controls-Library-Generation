@@ -1,0 +1,29 @@
+page_text_First proposal_Second proposal_Third proposal_labels_confidence_definitions
+4_A/IS shall be created and operated to respect, promote, and protect internationally recognized human rights_GV.OC-03_GV.PO-01__privacy_High_
+4_A/IS creators shall adopt increased human well-being as a primary success criterion for development_GV.RM-01_GV.OC-01___High_
+4_A/IS creators shall empower individuals with the ability to access and securely share their data, to maintain people's capacity to have control over their identity_PR.DS-01; PR.DS-02_PR.AA-01__data protection; privacy_High_
+4_A/IS creators and operators shall provide evidence of the effectiveness and fitness for purpose of A/IS_ID.RA-05_GV.RM-06_ID.IM-01_transparency_High_
+4_The basis of a particular A/IS decision should always be discoverable_GV.OV-03_ID.RA-06__transparency_High_
+4_A/IS shall be created and operated to provide an unambiguous rationale for decisions made_GV.RR-02_GV.OV-03__transparency_High_
+4_A/IS creators shall guard against all potential misuses and risks of A/IS in operation_ID.RA-03_ID.RA-05___High_
+4_A/IS creators shall specify and operators shall adhere to the knowledge and skill required for safe and effective operation_PR.AT-01; PR.AT-02_GV.RR-02___High_
+4_A/IS will reliably, safely, and actively accomplish the objectives for which they were designed while advancing human-driven values_GV.RM-01_GV.OC-01___Medium_definition
+5_Government and industry stakeholders should identify types of decisions and operations that should never be delegated to such systems_GV.RR-02_GV.PO-01___High_
+5_Standards of transparency, competence, accountability, and evidence of effectiveness should govern development_GV.PO-01_GV.OV-03__transparency_High_
+19_A/IS should always be subordinate to human judgment and control_GV.RR-01_GV.PO-01___High_
+23_Organizations should explore, test, and implement technologies and policies for case-by-case authorization decisions_PR.AA-05_GV.PO-01_PR.DS-01_data protection_High_
+25_For validation or certification agencies, algorithms underlying the A/IS and how they have been verified_ID.RA-09_PR.PS-06__transparency_High_
+25_For accident investigators, secure storage of sensor and internal state data comparable to a flight data recorder_PR.DS-01_RS.AN-07___High_
+27_Develop new standards that describe measurable, testable levels of transparency_GV.PO-01_GV.OV-03__transparency_High_
+29_Legislatures/courts should clarify responsibility, culpability, liability, and accountability for A/IS_GV.RR-02_GV.PO-01___High_
+30_Systems for registration and record-keeping should be established for legal responsibility_ID.AM-02_GV.RR-02___High_
+30_Creators should register key parameters including intended use, training data, sensors, algorithms_ID.AM-01; ID.AM-02_ID.AM-07___High_
+31_Creators should be aware of methods of misuse and design A/IS to minimize opportunity_ID.RA-03_ID.RA-05___High_
+31_Raise public awareness around issues of potential A/IS technology misuse_PR.AT-01_GV.RR-01___High_
+32_Creators should specify types and levels of knowledge necessary to operate any given application_PR.AT-01; PR.AT-02_GV.RR-02___High_
+32_Creators should integrate safeguards against incompetent operation_PR.PS-01_PR.PS-05___High_
+33_Entities should create documented policies to govern how A/IS should be operated_GV.PO-01_GV.RR-02___High_
+33_Operators should ensure access to requisite competencies before operating a system_PR.AT-02_GV.RR-02___High_
+41_The programming, output, and purpose of A/IS are often not discernible by the general public_GV.OC-02____Low_definition
+41_People and institutions need clarity around manufacture and deployment to establish responsibility_GV.RR-02_GV.OV-03_GV.PO-01_transparency_High_
+41_Manufacturers must be accountable to address legal issues of culpability_GV.RR-01_GV.PO-01___High_

@@ -1,0 +1,31 @@
+page_text_First proposal_Second proposal_Third proposal_labels_confidence_definitions
+2_The most powerful tools for retaining government AI talent are ensuring that AI work is closely tied to the agency mission and ensuring that AI talent has the technical and institutional support to work effectively as AI practitioners_GV.RR-01; GV.RR-03_PR.AT-01__Medium_
+2_One way to make the best use of these usually limited incentives is to ensure federal employees have full awareness and access to AI related training and skill development opportunities_PR.AT-01_GV.RR-03__Medium_
+3_AI practitioners must regularly attend industry and academic conferences to maintain their effectiveness_PR.AT-02_PR.AT-01__High_
+3_AI practitioners who feel they may be falling behind in their field while working in government are more likely to leave to maintain their own competence as AI practitioners; agencies should actively prevent this situation to improve retention_PR.AT-02_GV.RR-03__Medium_
+5_Mission areas should create a space for these emerging data science roles to become part of an Integrated Product Team (IPT) ready to take on AI implementation_GV.RR-02_ID.AM-01__High_
+5_AI champion: Advocates for the AI solution's value, but ensures the clear, effective, and transparent communication of the AI solution to ensure that it is developed responsibly and produces the intended results_GV.RR-02; GV.RR-01___transparency_High_definition
+6_Mission or program office practitioner: Identifies opportunities and provides business and workflow understanding_GV.RR-02___Medium_definition
+6_An AI's project success depends on the makeup of the Integrated Product Team (IPT). Though technical know-how is certainly important, without adequately understanding the challenge you are trying to address and getting buy-in from the mission and program team, the project will fail_GV.RR-02_GV.OC-01__High_
+6_Due to the iterative, data-dependent nature of AI, misguided or unsupported AI development could have serious consequences down the road_ID.RA-04_ID.RA-05__Medium_
+11_When evaluating these AI tools and capabilities, note that there's more to AI than simply building models_ID.RA-09_ID.RA-04__Low_
+11_You'll need to evaluate development environments, infrastructure, data management, data manipulation and visualization, and computing power technologies_ID.AM-02; ID.AM-08_PR.PS-01__High_
+11_DevSecOps is the integrated practice of bringing together software development, IT operations, and the security team_GV.SC-03___High_definition
+11_Many AI tools and solutions are tied to a cloud platform. Elastic storage, computing infrastructure, and many pre-package ML libraries help accelerate ML model development and training_PR.IR-04___Medium_definition
+11_Use orchestration tools to help manage complex tasks and workflows across the infrastructure_PR.IR-03_PR.PS-01__High_
+12_version control management to perform security scans, and monitor and perform testing and ongoing performance_DE.CM-09_PR.PS-04__High_
+12_Data collection, ingestion, management, and manipulation are AI development's more critical and challenging elements_ID.AM-07___Low_definition
+12_Tools are available to handle various tasks associated with data operations, including: tools for data acquisition, data cataloging, data collection and management frameworks_ID.AM-07_PR.DS-01_PR.DS-02_data protection_Medium_definition
+13_Data governance and management are central to identifying AI use cases and developing AI applications_GV.OC-01___Low_
+13_Establishing a multi-tier governance structure consisting of working groups, advisory boards, and decision-making bodies can distribute decision-making authority across tiers so activities and decisions can be made quickly_GV.RR-02_GV.OV-01__High_
+13_Consider elevating decisions only when they cross a defined threshold like resource allocation or level of effort_GV.RR-03_GV.RM-01__High_
+15_Example outputs of data governance activities include (but are not limited to): data governance framework, data strategy and policies, data asset inventories, data quality plans, data management scorecards, business glossary, communications plan, data management processes, best practices & lessons learned, workforce skills assessment_GV.PO-01_ID.AM-07__Medium_
+16_While minimum tagging requirements vary across different organizations, the list above is provided as a general guideline. For operations that are highly specific or deal with high-impact or sensitive data, the receiving organization may need to capture more metadata fields earlier in the data lifecycle_ID.AM-07_PR.DS-01__data protection_High_
+16_Data should be securely accessed and monitored throughout its useful lifespan, and properly archived according to handling procedures set forth by the original data owner_PR.DS-01; PR.DS-02_ID.AM-08__data protection_High_
+16_One example of this is access rights and handling, need-to-know, and archiving procedures associated with classified data, which requires highly restricted and governed data handling procedures_PR.AA-05_PR.DS-01_PR.DS-02_data protection_High_
+17_Many AI projects are iterative or involve significant monitoring components. Any given dataset is not itself static and can quickly change as the project uncovers new insights_DE.CM-09_ID.RA-07__Medium_
+17_Information on data sources and their subsequent use can be captured, measured, and prioritized much like business decisions of physical inventory assets_ID.AM-07_ID.AM-05__Medium_
+17_This activity requires a broad range of perspectives and interactions across many different classes of "users" that make up the IPT, including data scientists, engineers, mission owners, legal professionals, security experts, and more_GV.RR-02_GV.SC-02__High_
+17_Effective data governance will influence resourcing decisions based on the overall business value of datasets. In order to influence these resourcing decisions, get usage metrics and business intelligence across your data inventory_ID.AM-05_GV.RM-06__High_
+17_User research and use case development help governance bodies understand high-impact datasets across different members of the IPT or mission areas_GV.OC-02_ID.AM-05__Medium_
+20_The AI CMM is a tool that helps organizations develop their unique AI roadmap and investment plan_GV.RM-01___Low_definition

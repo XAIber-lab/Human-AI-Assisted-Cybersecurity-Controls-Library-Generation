@@ -1,0 +1,35 @@
+1_Your technical teams should record and document all movements and storing of personal data from one location to another. This will help you apply appropriate security risk controls and monitor their effectiveness. Clear audit trails are also necessary to satisfy accountability and documentation requirements._ID.AM-07; PR.DS-01_ID.RA-07_PR.PS-04_data protection_High_no
+
+1_You should delete any intermediate files containing personal data as soon as they are no longer required, eg compressed versions of files created to transfer data between systems._PR.DS-01_ID.AM-08_ID.RA-07_data protection_High_no
+
+2_Whether AI systems are built in-house, externally, or a combination of both, you will need to assess them for security risks. As well as ensuring the security of any code developed in-house, you need to assess the security of any externally maintained code and frameworks._ID.RA-01; ID.RA-09_GV.SC-07_ID.IM-02_none_High_no
+
+2_your external code security measures should include subscribing to security advisories to be notified of vulnerabilities_ID.RA-02_DE.CM-09_PR.PS-06_none_High_no
+
+2_your internal code security measures should include adhering to coding standards and instituting source code review processes_PR.PS-06_ID.RA-01_GV.PO-01_none_High_no
+
+1_Depending on the likelihood and severity of the risk to individuals, you may also need to apply de-identification techniques to training data before it is extracted from its source and shared internally or externally._PR.DS-01; PR.DS-02_ID.RA-05_GV.RM-06_privacy_Medium_no
+
+4_To mitigate this risk, you could monitor queries from the API's users, in order to detect whether it is being used suspiciously. This may indicate a privacy attack and would require prompt investigation, and potential suspension or blocking of a particular user account._DE.CM-01; DE.CM-03_ID.RA-05_RS.MI-01_none_High_no
+
+6_You should regularly and proactively evaluate the possibility of personal data being inferred from models in light of the state-of-the-art technology, so that you minimise the risk of accidental disclosure._ID.RA-01_ID.IM-01_DE.CM-09_privacy_High_no
+
+1_Our key message is that you should review your risk management practices ensuring personal data is secure in an AI context._GV.RM-01_ID.RA-05_GV.OV-01_data protection_High_no
+
+5_Security and ML researchers are still working to understand what factors make ML models more or less vulnerable to these kinds of attacks, and how to design effective protections and mitigation strategies._ID.RA-02_none_none_none_Low_definition
+
+6_either directly or by those who may have access to the model. You should assess the means that may be reasonably likely to be used, in light of the vulnerabilities described above. As this is a rapidly developing area, you should stay up-to-date with the state of the art in both methods of attack and mitigation._ID.RA-01; ID.RA-05_GV.RM-06_DE.AE-07_none_High_no
+
+2_Using 'virtual machines' or 'containers' - emulations of a computer system that run inside, but isolated from the rest of the IT system may help here; these can be pre-configured specifically for ML tasks._PR.PS-01; PR.AA-05_PR.IR-01_none_none_Medium_no
+
+4_Under Articles 13 (2)(f) and 14 (2)(g), you must tell people whose data you are processing that you are doing so for automated decision-making and give them meaningful information about the logic involved, as well as the significance and the envisaged consequences_GV.OC-03_RS.CO-02_none_transparency_High_no
+
+4_In addition, data protection requires you to implement suitable safeguards when processing personal data to make solely automated decisions that have a legal or similarly significant impact on individuals. These safeguards include the right for individuals to: obtain human intervention; express their point of view; contest the decision made about them; and obtain an explanation about the logic of the decision._GV.PO-01; GV.RR-02_PR.DS-01_none_data protection_High_no
+
+22_Your senior management should review and sign-off the intended use of any AI system, making sure that it is in line with your organisation's risk appetite. This means senior management needs to have a solid understanding of the key risk implications associated with each option and be ready and equipped to provide an appropriate degree of challenge._GV.RR-01_GV.RM-02_GV.OV-01_none_High_no
+
+17_You are also required to keep a record of all decisions made by an AI system as part of your accountability and documentation obligations._PR.PS-04_ID.RA-07_none_transparency_High_no
+
+24_The process for individuals to exercise their rights should be simple and user friendly. For example, if you communicate the result of the solely automated decision through a website, the page should contain a link or clear information allowing the individual to contact a member of staff who can intervene, without any undue delays or complications._PR.AA-01_GV.OC-02_none_transparency_High_no
+
+22_It is possible that you: may not know in advance whether a solely or partly automated AI application will meet your needs best; or believe that a solely automated AI system will more fully achieve the intended outcome of your processing, but that it may carry more risks to individuals than a partly automated system._GV.OC-01_none_none_none_Low_definition

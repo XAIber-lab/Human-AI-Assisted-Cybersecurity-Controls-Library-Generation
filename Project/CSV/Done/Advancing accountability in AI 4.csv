@@ -1,0 +1,39 @@
+page;text;confidence
+31;Being able to provide clear and meaningful explanations of an AI system's outcomes is crucial to building and maintaining users' trust;medium
+31;Explainability implies that an AI system should provide plain and easy-to-understand information on the factors and decision processes that serve as the basis for its prediction, recommendation, or decision;high
+31;Cross-validate to assure model robustness and reduce the risk of overfitting on training data: K-fold-CV; leave-one-out;high
+32;Local vs. global techniques: local interpretability techniques detail how a model arrived at a specific prediction, such as showing the subset of pixels that had the biggest impact on the classification of an image (e.g. using techniques such as "Shapley values"); global techniques detail what features are important to the model overall;medium
+33;Transparency describes responsible disclosure to ensure people are aware that AI is being used in a prediction, recommendation or decision, or in an interaction;high
+33;Transparency also means enabling people to understand how an AI system is developed, trained, operated, and deployed in the application domain, so that, for example, users and consumers can make more informed choices;high
+33;Transparency also refers to the ability to provide meaningful information and clarity about what data and outputs are provided and why, including to regulators and auditors;high
+33;Information about the objectives of the AI system, the expected users and potential stakeholders affected by its use and foreseeable misuse;high
+33;Data sources, including dataset metadata, data collection processes, and data processing information;high
+33;Complete, documented code, including necessary libraries and their appropriate versions;high
+33;Information on how the code should be executed to guarantee reproducibility of outputs, including detailed documentation of the parameters and computing requirements;high
+33;Information about the monitoring strategy, including performance metrics, thresholds, expected model behaviour, and mitigation actions; information about the deficiencies, limitations, and biases of the model, as well as if and how they are communicated to the relevant stakeholders;high
+34;AI systems should also not generate unreasonable safety risks, including to physical security, in conditions of either normal use or foreseeable misuse throughout their lifecycle;medium
+34;Resilience against attack: the level of protection against software and hardware vulnerabilities (such as data poisoning e.g. tampering with training data to produce undesirable outcomes) and problematic practices;high
+34;General safety and fall-back plans: safeguards that enable a back-up plan in case of problems. The level of safety required depends on the magnitude of the risk posed by an AI system;high
+34;Reliability (consistent intended behaviour and results), repeatability (the same results can be obtained by the same team using the same experimental setup), replicability (the same results can be obtained by a different team using the same experimental setup), reproducibility (closeness between the results of two actions);high
+35;Optimisation of trade-off decisions depends on multiple factors, notably the use-case domain, the regulatory environment, and the values and risk tolerance of the organisation implementing the AI system;medium
+35;In this context, risk tolerance refers to the "organisation's or stakeholder's readiness or appetite to bear the risk in order to achieve its objectives";high
+37;Calculate operational costs: energy cost of operating AI system hardware, including data-centre overheads;high
+37;Monitor logs and metrics using dashboards to indicate system failure and compute usage, e.g. Kibana, Grafana and Zeppelin;high
+37;Calculate Power Usage Effectiveness (PUE): industry standard metric of data-centre efficiency;medium
+37;Monitor carbon intensity: cleanliness of a data-centre's energy;medium
+37;Understand the expected generalisation performance of the model on future data, considering the economic and social context;medium
+38;Define protected and non-protected subgroups, and consider possible impacts on them; analyse tool capabilities of mitigating intrinsic data bias;high
+38;Understand the sources of bias throughout the AI system lifecycle, such as group attribution, historical, omitted-variable and, selection bias;high
+38;Data enrichment: incorporate impact on worker well-being into decision-making processes about data enrichment;medium
+39;Make datasets (pseudo)-anonymous;high
+39;Identify sensitive and personal data, either in the dataset used for training or accessible by end-users;high
+39;Create/leverage emerging data governance models: data sharing pools, data cooperatives, and data trusts;medium
+39;Defend against data poisoning: techniques to protect the models from fake data injection;high
+39;Rate-limiting: use strategies for limiting network traffic;high
+39;Monitor the storage and privacy of sensitive information;high
+39;Automate compliance-verification and auditability;high
+40;Develop contingency plans to be included in ethics-by-design approaches;high
+40;Update company policies against developing potentially harmful AI systems;medium
+40;Engagement and consultation with external experts, stakeholders, civil rights groups, and oversight bodies;high
+40;Take remedial actions, including arbitration, cessation of activity, apology, development of new processes or policies, monetary compensation, judiciary action, etc.;high
+40;Leverage transparent grievance mechanisms, public reporting, and public oversight;high

@@ -1,0 +1,11 @@
+Open the file "launcher.py" in python.
+Select the required analysis type. This will make the launcher use the right python script, indicated by the name between ().
+Browse the CSV file or files.
+The default output folder will be located in the same folder of the launcher, unless a different location is selected. 
+Run the analysis. The results will be presented in a generated HTML, which will open automatically at the end of the analisys.
+
+Note:
+The launcher and the two scripts (Results.py and Match.py) need to be in the same folder.
+The output filename of the single analysis follows the format "inputFilename results.html"
+The output filename of the double analysis follows the format "firstFilename secondFilename match.html"
+Please notice that a second analysis of the same csv file or files will override the precedent one.

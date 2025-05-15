@@ -1,0 +1,17 @@
+page;text;confidence;definition
+19;"People & Planet are at the centre of the framework. This dimension considers the potential of AI actors to develop applied AI systems that promote human-centric, trustworthy AI that benefits people and planet";low;definition
+21;"AI actors are those who play an active role throughout the AI system lifecycle and can include organisations and individuals that deploy or operate AI";medium;definition
+22;"System operators who plan and design and operate and monitor AI systems; Data collectors and processors who collect and process data; Developers and modellers who build and use models and verify and validate them; System integrators who deploy AI systems";high;definition
+24;"The framework provides a structured way to assess AI systems' potential to promote the development of human-centric, trustworthy AI as set out in the OECD AI Principles, i.e. AI systems that benefit people and planet; uphold human rights, democratic values and fairness; are transparent and explainable; are robust, secure and safe; and whose operators are accountable";medium;
+25;"Human rights provide a set of universal minimum standards based on, among others, values of human dignity, autonomy and equality, in line with the rule of law";medium;definition
+26;"Users can range in competency from AI experts to amateur end-users";high;definition
+26;"The following stakeholders may be impacted directly or indirectly, and consciously or unconsciously by the AI system: Workers/employees, Consumers, Business, Government agencies/regulators, Scientists/researchers, Children or other vulnerable or marginalised groups";high;
+26;"Optionality can be understood as the extent to which users can opt out of the effects or the influence of the AI system";medium;definition
+26;"Users cannot opt out of the AI system's output; Users can opt out of the AI system's output; Users can challenge or correct the AI system's output; Users can reverse the AI system's output ex-post";high;
+26-27;"Some AI systems generate outputs that can impact individuals' human rights, either negatively or positively";medium;
+27;"Having humans in the loop of certain AI system processes and/or a human appeal process are important to reducing risk";high;
+27;"Risk-assessment frameworks would usually also include the likelihood the risk will occur, its impact and mitigation measures";high;
+27;"Such high-stakes situations often require formal transparency and accountability mechanisms, including transparency about the role of AI and human involvement in the process (e.g. human-in-the-loop), the full consequences of the AI system's action on all stakeholders and the availability of appeals processes";high;
+27;"AI-based outcomes should not be the only decisive factor when applications or decisions have a significant impact on people's lives";high;
+27;"the GDPR stipulates that a human must be in the loop if a decision has legal or similarly significant effects on people";high;
+27;"Many AI systems use human data as inputs and generate outputs that can impact individuals' and societies' well-being, either positively or negatively";medium;

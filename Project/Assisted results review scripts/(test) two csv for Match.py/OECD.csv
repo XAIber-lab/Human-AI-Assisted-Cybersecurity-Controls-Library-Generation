@@ -1,0 +1,215 @@
+Page,Details,,
+6,"Promote a common understanding of AI: Identify features of AI systems that matter most, to help 
+governments and others tailor policies to specific AI applications and help identify or develop metrics 
+to assess more subjective criteria (such as well-being impact).",,
+6,"Inform registries or inventories: Help describe systems and their basic characteristics in inventories 
+or registries of algorithms or automated decision systems.",,
+6,"Support sector-specific frameworks: Provide the basis for more detailed application or domain-specific 
+catalogues of criteria, in sectors such as healthcare or in finance.",,
+6,"Support risk assessment: Provide the basis for related work to develop a risk assessment framework
+to help with de-risking and mitigation and to develop a common framework for reporting about AI 
+incidents that facilitates global consistency and interoperability in incident reporting.",,
+6,"Support risk management: Help inform related work on mitigation, compliance and enforcement 
+along the AI system lifecycle, including as it pertains to corporate governance",,
+18,What is the level of competency of users who interact with the system?,,
+18,"Who is impacted by the system (e.g. consumers, workers, government agencies)?",,
+18,"Can users opt out, e.g. switch systems? Can users challenge or correct the output?",,
+18,"Can the system’s outputs impact fundamental human rights (e.g. human dignity, 
+privacy, freedom of expression, non-discrimination, fair trial, remedy, safety)?
+Can the system’s outputs impact areas of life related to well-being (e.g. job quality, 
+the environment, health, social interactions, civic engagement, education)?",,
+18,"Which industrial sector is the system deployed in (e.g. finance, agriculture)?
+What business function(s) is the system employed in (e.g. sales, customer service)?
+Is the system a for-profit use, non-profit use or public service system?
+Would a disruption of the system’s function / activity affect essential services?
+Is the AI system deployment a pilot, narrow, broad or widespread?",,
+18,"Are the data and input collected by humans, automated sensors or both?
+Are the data and input from experts; provided, observed, synthetic or derived?",,
+18,"Are the data dynamic, static, dynamic updated from time to time or real-time? 
+Are the data proprietary, public or personal data (related to identifiable individual)?",,
+18,"If personal data, are they anonymised; pseudonymised?",,
+18,"Are the data structured, semi-structured, complex structured or unstructured?
+Is the format of the data and metadata standardised or non-standardised?",,
+18,"Is the dataset fit for purpose? Is the sample size adequate? Is it representative and 
+complete enough? How noisy are the data? ",,
+18,Is any information available about the system’s model?,,
+18,"Is the model symbolic (human-generated rules), statistical (uses data) or hybrid?
+Is the model open-source or proprietary, self or third-party managed?
+Is the model generative, discriminative or both?
+[...]",,
+18,"What tasks does the system perform (e.g. recognition, event detection, forecasting)?
+[...]",,
+18,Are standards or methods available for evaluating system output?,,
+19,"This dimension considers the potential of AI actors to 
+develop applied AI systems that promote human-centric, trustworthy AI that benefits people and planet. It 
+identifies individuals and groups that interact with or are affected by an applied AI system in a specific 
+context. Core characteristics include users and impacted stakeholders, as well as the application’s 
+optionality and how it impacts human rights, the environment, well-being, society and the world of work. ",,
+19,"accountability and transparency 
+are critical in contexts where the outcomes of an AI system can impact human rights",,
+20,"Characteristics include the provenance of data and inputs, 
+machine and/or human collection method, data structure and format, and data properties",,
+20,"Core characteristics include technical 
+type, how the model is built (using expert knowledge, machine learning or both) and how the model is used 
+(for what objectives and using what performance measures).",,
+21,"Understanding how a model was developed and/or maintained is another
+key consideration for assigning roles and responsibilities throughout risk management processes. ",,
+21,"Core characteristics of this dimension include system task(s) [...]
+This dimension is important for public policy because personalisation tasks, for example, generate outputs 
+that could raise bias and fairness issues",,
+21,"it is 
+important to underscore that an AI system “in the field” can change in many significant ways over time, 
+especially with regards to breadth of deployment, technological maturity, users and capabilities.",,
+24,"The framework may need to be reviewed at regular intervals for its dynamic nature, as mentioned above 
+but also for continued relevance in view of social, technical and legal developments that may affect AI 
+systems as well as the contexts in which they evolve. ",,
+26,"AI system users relate to accountability (Principle 1.5); transparency and 
+explainability (Principle 1.3); and safety, security and robustness (Principle 1.4).",,
+26,"Stakeholders impacted by the system are most relevant to transparency and 
+explainability (Principle 1.3) and to policy and regulatory frameworks (Principle 2.2). Stakeholder groups 
+such as consumers, workers/employees or children are often covered by existing policy and regulatory 
+regimes. In Europe, the General Data Protection Regulation (GDPR) gives data subjects (those whose data 
+is collected, held or processed) the right, under some circumstances, to not be subject to automated 
+decision-making.",,
+27,"Having humans in the loop of certain AI system processes 
+and/or a human appeal process are important to reducing risk. ",,
+27,"Transparency and explainability (Principle 1.3), as well as accountability (Principle 
+1.5), are widely viewed as having higher importance in contexts where the outcomes of an AI system can 
+impact human rights. ",,
+27,"high-stakes situations often require formal 
+transparency and accountability mechanisms (Principles 1.3 and 1.5), including transparency about the role 
+of AI and human involvement in the process (e.g. human-in-the-loop), the full consequences of the AI 
+system’s action on all stakeholders and the availability of appeals processes",,
+31,"The policy implications of deploying AI systems vary significantly from one sector to 
+the next",,
+31,"For cross-functional use of AI in an organisation – such as in recruitment, promotion, training or even 
+dismissal – the business function classification will be very important",,
+32,"The use case and business model of the AI system operator can be relevant to 
+determining the objectives that an AI system is optimising for",,
+32,"In some sectors, critical functions are accompanied by heightened risk considerations 
+with ex-ante regulations. The critical function will have a particular impact on security, safety and robustness 
+(Principle 1.4). In the European Union, the Network and Information Security (NIS) Directive mandates the 
+supervision of critical sectors",,
+33,"The planning and 
+design or specification phase is critical for public policy, and any major public failures and issues related 
+to other sections of the OECD framework can be avoided if first addressed at the specification phase [...]
+Planning and design processes for this system, then, might require expertise from 
+data scientists, domain experts and governance experts.",,
+34,"Operating and monitoring an AI system involves continuously assessing its recommendations and impacts 
+(both intended and unintended) in light of the system’s objectives as well as the ethical considerations that 
+go into its operation. In this phase, problems are identified and adjustments made by reverting to other 
+phases or, if necessary, retiring an AI system from production",,
+34,"Transparent, accessible information about the AI system’s objectives and assumptions: Provide
+interested stakeholders with access to useful information.",,
+34,,,
+34,"Performance monitoring mechanisms: Such as metrics to assess the performance and accuracy of the 
+AI system.
+Tools or processes for developing or maintaining trustworthy AI: Using tools like guidelines; 
+governance frameworks; product development or lifecycle tools including for model robustness; risk 
+management frameworks; sector-specific codes of conduct; process standards; technical validation 
+approaches; technical documentation; technical standards; toolkits, toolboxes or software tools; 
+educational material; change-management processes; certification (technical and/or process-related); 
+or tools for protection against adverse attacks.",,
+35,"Core characteristics of the Data & Input dimension are data provenance (where the data comes from);
+data collection and origin (e.g. data collection, origin, dynamic nature and scale); domain (e.g. personal, 
+proprietary or public); data quality and appropriateness; and their technical characteristics (e.g. structure 
+and encoding). ",,
+36,"Awareness and consent for the provision of personal data about individuals is a 
+critical focus area for privacy and consumer protection (Principle 1.2)",,
+38,"Personal data is associated with privacy considerations and legislation and usually requires more restrictive 
+access regimes. Personal data is relevant to issues related to human rights, fairness and privacy 
+(Principle 1.2)",,
+39,"Data identifiability can help assess the level of risk to privacy and 
+inform the need for legal and technical protection and access control.",,
+39,"An AI application or system applies standard criteria or industry-defined criteria in order to assess:
+Data appropriateness: Data are appropriate for the purpose for which they are to be used, following 
+standard practice in the industry sector. 
+Sample representativeness: Selected variables and training or evaluation data accurately depict/reflect 
+the population in the AI system environment.
+Adequate sample size: Sample size displays an appropriate level of granularity, coverage and 
+sufficiency of data.
+Completeness and coherence of sample: Sample is complete, with minimal missing or partial values. 
+Outliers must not affect the quality of data.
+Low data “noise”: Data is infrequently incorrect, corrupted or distorted (e.g. intentional or unintentional 
+mistakes in survey data, data from defective sensors).",,
+39,"Data quality has important policy implications for human rights and fairness (Principle 1.2), as well as to the 
+robustness and safety of an AI system (Principle 1.4): from both fairness and robustness perspectives, 
+datasets must be inclusive, diverse and representative so they do not misrepresent specific (sub) groups.",,
+40,"Formats and standards for annotating datasets often need 
+to be developed while taking into account industry sector and use case.
+[...]
+Standardisation of data formats facilitates interoperability and data re-use across 
+applications and for accessibility, and can help ensure that data are findable, catalogued, searchable and 
+re-usable",,
+41,"Data collection and processing currently involves expertise from actors such as data scientists, domain 
+experts, data engineers and data providers. ",,
+41,"Performing checks: For data quality and appropriateness.",,
+41,"Transparent information about the data and inputs used in the AI system: Providing interested 
+stakeholders with access to meaningful information on the data and inputs used in the AI system.",,
+41,Labelling data: Such as tagging data with informative data. ,,
+41,Protecting personal data,,
+41,Documenting data and dataset characteristics.,,
+41,"Using tools or processes for trustworthy AI: Such as guidelines, governance frameworks, product 
+development/lifecycle tools, risk management, sector-specific codes of conduct, process standards, 
+technical validation approaches, technical documentation, technical standards, 
+toolkits/toolboxes/software tools, educational material, change-management processes, and 
+certification (technical and/or process-related). ",,
+42,"The model choice and model-building approach 
+depend on the purpose of the AI system, i.e. the problem that the AI system is trying to solve",,
+43,"Does the AI system provide useful and meaningful information for understanding its performance 
+and outputs/decisions? 
+Can all of the AI system’s outputs – both intermediary and final – for achieving a given goal be 
+explained?
+Can the determinant data or knowledge that an AI system uses to make decisions be identified?",,
+43,"Do two similar-looking cases verifiably result in similar outcomes, i.e. can the consistency and 
+integrity of AI system outcomes be verified?",,
+43,"Do safety metrics exist that can evaluate the safety of an AI system for a given use case?",,
+43,How does the entity deploying the AI system test for safety during development?,,
+43,"What measures has the entity deploying the AI system taken to do an adversarial evaluation –
+that is, explore the AI system through the lens of being a “bad actor” and trying to break it?",,
+43,Are there measures in place to validate and verify the AI system’s outcomes? ,,
+43,"What measures are in place to facilitate traceability in the AI system, including in relation 
+to datasets, processes and decisions made during the AI system lifecycle?",,
+47,"Data-labelling, as explained earlier in this report, is the process of tagging data samples, which generally 
+requires human knowledge to build training data. Data-labelling is critical and can itself require some 
+explainability in contexts such as content moderation",,
+47,"The degree to which a model evolves in response to data and input from its 
+environment in the field is particularly relevant to public policy for AI systems that can iterate and evolve over 
+time and may change their behaviour in unforeseen ways. Model evolution and model drift (where a model 
+degrades because of changes in data, input or output) are directly relevant to safety, security and robustness 
+(Principle 1.4) as well as accountability and liability (Principle 1.5).",,
+48,"Federated learning helps to address critical issues like privacy (Principle 1.2), data 
+security and data access rights (Principle 1.4) by building models without sharing data",,
+48,"Understanding how an AI system’s model was developed and/or maintained is a key 
+consideration for assigning roles and responsibilities throughout a risk-management process. It is also 
+relevant to assessing the system’s robustness, security and safety (Principle 1.4) as well as accountability 
+(Principle 1.5).",,
+49,"For policy purposes, whether a model is probabilistic is relevant to testing and 
+testability (Principle 1.4) as well as to explainability (Principle 1.3). Probabilistic models can generate multiple 
+outcomes with information about their uncertainty. Given the randomness element in probabilistic models, a 
+specific outcome may not easily be reproducible (Principle 1.3 and 1.4). ",,
+49,"Different AI models can exhibit different degrees of transparency and explainability. Among other things, 
+this entails determining whether meaningful and easy-to-understand information is made available to:
+Make stakeholders aware of their interactions with AI systems, including in the workplace
+Enable those affected by an AI system to understand and challenge the outcome and how it was 
+produced by the AI model (e.g. by setting the weights of the AI model’s components)",,
+49,"Actions 
+performed by developers and modellers include:
+Model-building by selecting and training a model
+Verification and validation to execute and tune models, including metrics to authorise the system for 
+broader deployment",,
+51,"Recognition systems require data that is representative and unbiased to function appropriately. 
+Recognition of people and biometrics, such as facial recognition or voice recognition systems, can raise 
+concerns in relation to human rights (Principle 1.2) and robustness and security in case of adversarial attacks
+(Principle 1.4).",,
+51,"Interaction support tasks in which an AI system interacts with people may implicate data usage and data 
+privacy (Principle 1.2) and may require higher transparency and disclosure of the fact that one is interacting 
+with a chatbot (Principle 1.3)",,
+,,,"Results: 25 over 71, 30 high, 3 medium, 1 low
+2 medium definitions, 1 low definition
+
+12 things more found, useful, 8 high, 4 medium
+3 medium definitions
+
+24 more things found, useless, 6 high, 15 medium, 3 low
+2 high definitions, 10 medium definitions, 3 low definitions"

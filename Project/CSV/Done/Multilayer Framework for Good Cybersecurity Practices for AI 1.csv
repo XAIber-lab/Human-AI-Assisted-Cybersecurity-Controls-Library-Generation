@@ -1,0 +1,22 @@
+Page;Extract;Confidence Level
+4;"to develop a framework for AI good cybersecurity practices (FAICP) necessary for securing the ICT infrastructures and the hosted AI, taking into account the AI life cycle which goes beyond ML (from system concept to decommissioning) and all elements of the AI supply chain, associated actors, processes and technologies";Medium
+4;"AI stakeholders. Designers, developers, integrators, manufacturers, operators, service providers, supply chain business partners, auditors, legislators, policymakers and professional users";High, definition
+4;"National authorities. Authorities, agencies and competence centres for monitoring and assessing cybersecurity or AI activities";High, definition
+5;"treat AI systems as cyber assets within an ICT infrastructure. In particular, we identify their main components: data sources, data, algorithms, training models, implementation/data management/testing processes and users";High, definition
+7;"The components of any ICT infrastructure can be viewed as a scalable pyramid of six building blocks";Low, definition
+7;"Infrastructure consists of all physical assets";Low, definition
+7;"Users/procedures includes all users that interact with all components from the previous blocks, i.e. internal and external physical entities (e.g. persons, enterprises), smart objects (e.g. IoT) and operational procedures";Medium, definition
+8;"Risk management is the basic cybersecurity practice for ensuring that an enterprise is secure, by identifying and evaluating threats and vulnerabilities, potential impacts and by measuring risks";High
+8;"According to the NIS and NIS 2 directives, all essential entities important for the functioning of society need to assess and mitigate their risks";High
+8;"For the identification of general cybersecurity threats, AI stakeholders wishing to secure their ICT infrastructure can use the annual ENISA Threat Landscape report on the state of the cybersecurity threat landscape";High
+8;"The various types of threats to ICT infrastructures are listed below: Adversarial threats, Accidental threats, Environmental threats, Vulnerability";Medium, definition
+8;"Adversarial threats. These pose malicious intentions (e.g. denial of service attacks, non-authorised access, masquerading of identity) to individuals, groups, organisations or nations";Medium, definition
+8;"Accidental threats. These are caused accidentally or through legitimate components. Human errors are a typical accidental threat";Medium, definition
+8;"Environmental threats. These include natural disasters (floods, earthquakes), human-caused disasters (fire, explosions) and failures of supporting infrastructures (power outage, communication loss)";Medium, definition
+8;"Vulnerability. This is an existing weakness that might be exploited by an attacker";High, definition
+9;"Security management includes two main phases: Risk analysis and Risk management";High
+9;"Risk analysis. Threat/vulnerability/impact analyses and risk estimations are conducted on all assets within the perimeter of the assessment (e.g. components of medical devices, cyber assets within a hospital's infrastructure)";High
+9;"Risk management. Risks are treated by selecting and implementing appropriate countermeasures";High
+9;"The appropriate selection of controls requires a cost-benefit analysis, to determine the risks the manufacturer is willing to accept and compare the costs of those risks against the benefits";High
+9;"The major focus lies on enterprises and the identification, analysis and evaluation of threats and vulnerabilities, along with the estimation of risk levels to the respective enterprise assets";High
+9;"The outcome of a risk analysis is a list of threats to all assets of the enterprise ICT system, together with the corresponding risk levels of these threats to all assets";High

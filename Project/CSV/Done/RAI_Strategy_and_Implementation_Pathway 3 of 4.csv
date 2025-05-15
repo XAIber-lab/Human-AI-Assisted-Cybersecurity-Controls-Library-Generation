@@ -1,0 +1,21 @@
+page;text;confidence
+19;"Ensure disciplined governance structure and processes at the Component and DoD-wide levels for oversight and accountability and clearly articulate DoD guidelines and policies on RAI and associated incentives to accelerate RAI adoption within the DoD";medium
+19;"Appropriately staff DoD- and Component-level internal oversight bodies to ensure appropriate expertise is in place to conduct robust and effective oversight of DoD's use of AI under their roles and authorities";high
+19;"Identify methods for users and developers to report concerns about the implementation of the DoD Al Ethical Principles";high
+20;"Report to the CDAO any perceived significant barriers - including gaps in infrastructure required to support traceability, auditability, risk analysis, and forensics, and recommended hardware, software, or other infrastructure needs";high
+22;"Develop or acquire Al-related T&E tools to be used as a resource for Al developers and testers. This AI T&E Toolkit shall draw upon best practices and innovative research from industry and the academic community, as well as commercially available technology where appropriate.";medium
+22;"Necessary tools and technologies required to detect both natural degradation of and adversarial attacks on Al, including those to detect various attacks on AI systems, and that can notify testers or operators when such attacks are occurring.";high
+22;"Include guidance for operationalizing RAI principles into testable conjectures for common technologies, mission domains, and uses cases";medium
+23;"Create a test range environment and central repository of tools for T&E of Al, linking to existing and emerging equivalent DoD Component environments, that enables easy and continuous testing for DoD testers. Where appropriate, tools that are housed in this environment should comply with DoD Enterprise DevSecOps Reference Designs for portability across the Department.";high
+23;"Develop and distribute DoD-wide guidance for AI security, leveraging existing best practices for risk management, supply chain security, and cybersecurity. This guidance should be updated as the field matures.";high
+24;"Require AI vendors and developers to plan for, resource, and provide appropriate training and documentation, such as user manuals, to be used prior to capability fielding in order to ensure warfighters are equipped with an appropriate understanding of the capability's function, risks, performance expectations, and potential harms.";high
+24;"Require AI vendors and developers who design systems and create features with human-facing interfaces to provide traceable feedback on systems status and clear procedures to trained operators to activate and deactivate system functions.";high
+24;"Monitor performance of their AI systems after fielding (including guidance on metrics for monitoring and system instrumentation tools to support this)";high
+24;"Establish processes for operators of Al-enabled capabilities to notify and report changes in capability performance, outcomes, emergent behavior, and/or disengagement";high
+25;"Develop an Acquisition Toolkit that draws upon best practices and innovative research from the DoD enterprise, industry, and the academic community";low
+25;"Standard AI contract language that provides clauses for: independent government T&E of AI capabilities, methods of immediate remediation when the vendor-provided Al capabilities cannot be used in accordance with the DoD Al Ethical Principles";medium
+26;"Templates for Al project management with an emphasis on ensuring that developers have an understanding of user needs and operational context";medium
+26;"Al Data Cards and Model Cards, and corresponding catalogs, with detailed instructions";low
+26;"Provide guidance on how and when the RAI Tools should be used across the Al Product Lifecycle, based on an assessment of the Al technology's level of technical maturity, project sensitivity, and overall risk";high
+27;"Publish best practices to preserve privacy and civil liberties and to avoid unintended bias in the design and development of Al capabilities that involve the use of personal information";high
+28;"Ensure RAl inclusion and appropriate DoD AI capabilities";low

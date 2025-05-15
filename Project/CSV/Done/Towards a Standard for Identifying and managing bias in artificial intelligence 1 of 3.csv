@@ -1,0 +1,16 @@
+page 11;"The intent is to enable AI designers, developers, evaluators and deployers to relate lifecycle processes with AI bias categories and effectively facilitate its identification and management";medium;definition
+page 12;"During development the organization should periodically assess the completeness of bias identification processes as well as the effectiveness of mitigation";high
+page 12;"Finally, at the end of the development stage, and before deployment, a thorough assessment of bias mitigation is necessary to ensure the system stays within pre-specified limits";high
+page 13;"Teams should engage in continuous monitoring and have detailed policies and procedures for how to handle system output and behavior";high
+page 13;"System retraining may be necessary to correct adverse events, or decommission may be necessary";medium
+page 13;"Since the lifecycle is iterative there are numerous opportunities for technology development teams to carry out multi-stakeholder consultation and ensure their applications are not causing unintended effects or harms";medium
+page 13-14;"Organizations are encouraged to perform continuous testing and evaluation of all AI system components and features where bias can contribute to harmful impacts";high
+page 14;"If deviations from desired goals are observed, the findings should feed into the model Pre-Design stage to ensure appropriate adjustments are made";high
+page 14;"During this stage, the model developer should perform continuous testing and evaluation to ensure that bias mitigation maintains effectiveness in the new setting, as the model is optimized and tested for performance";high
+page 14;"Once released, the deploying organization should use documented model specifications to test and evaluate bias characteristics during deployment in the specific context";high
+page 14;"TEVV does not amount to a full application of the scientific method. TEVV is an engineering construct that seeks to detect and remediate problems in a post-hoc fashion";low;definition
+page 16;"The question of dataset fit or suitability requires attention to three factors: statistical methods for mitigating representation issues; processes to account for the socio-technical context in which the application is being deployed; and awareness of the interaction of human factors with the AI technical system at all stages of the AI lifecycle";medium
+page 18;"The practice of deploying AI in off-label uses, that is AI systems being applied to a task or within a social or organizational context for which it was not designed, must be approached with caution, especially in high-risk settings";high
+page 19;"Processes for documenting potential sources of human bias are essential but often overlooked elements for characterizing AI model transparency and explainability";medium
+page 20;"Therefore, when we consider the computational approaches to mitigating bias, we must take into consideration these three components together: algorithms, data, and fairness metrics";low;definition
+page 20;"Without direct measures for these highly complex considerations, AI development teams use proxies, which can create many risks";medium

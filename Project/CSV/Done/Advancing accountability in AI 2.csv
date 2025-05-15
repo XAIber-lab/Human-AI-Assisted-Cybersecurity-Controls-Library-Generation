@@ -1,0 +1,22 @@
+page;text;confidence
+16;"Risk-management approaches applied throughout the AI system lifecycle can identify, assess, prioritise, and resolve situations that could adversely affect a system's behaviour and outcomes";high
+18;"Four steps to manage AI risks while ensuring respect for human rights and democratic values can be identified based on NIST's AI Risk Management Framework, the ISO 31000 risk-management framework, and OECD Due Diligence Guidance";high
+18;"Define scope, context, and criteria, including the relevant AI principles, stakeholders, and actors for each phase of the AI system lifecycle and for the lifecycle itself";high
+18;"Assess the risks to trustworthy AI by identifying and analysing issues at individual, aggregate, and societal levels and evaluating the likelihood and level of harm (e.g. small risks can add up to a larger risk)";high
+18;"Treat risks to cease, prevent, or mitigate adverse impacts, commensurate with the likelihood and scope of each";high
+18;"Govern the risk management process by embedding and cultivating a culture of risk management in organisations; monitoring and reviewing the process in an ongoing manner; and documenting, communicating and consulting on the process and its outcomes";high
+19;"The high-level AI risk management framework offers a systematic way to govern and manage risks to trustworthy AI at each phase of the AI system lifecycle";medium
+11;"Risk management should be an iterative process where findings and results from one step continuously feed into the other steps";medium
+13;"Documenting the steps, decisions, and actions conducted during risk management and explaining their rationale can bolster accountability if it enhances transparency and enables human review";high
+13;"Whether the AI system is built in-house or by a third party, documentation and logs should 'follow the system' throughout the AI system lifecycle";high
+13;"Communicating that an AI system meets regulatory, governance, and ethical standards is also crucial since the core objective of AI risk management is to ensure AI systems are trustworthy and safe and protect human rights and democratic values";medium
+13;"Where appropriate, it is important to verify and communicate that an AI system conforms to and is interoperable with national and international regulations and standards";medium
+13;"Consultation about processes and results is a core element of trustworthy AI because everyone directly or indirectly involved in or affected by the development or use of an AI system plays a role in ensuring accountability in the AI ecosystem";medium
+16;"Governments, businesses, and societies increasingly require assurance that AI systems are trustworthy, as in the financial sector and other domains that leverage risk management and auditing to ensure that their processes abide by certain standards";low
+17;"Human-centred values and fairness: the values of human rights, human agency, democracy, and the rule of law should be incorporated throughout an AI system's lifecycle, while allowing human intervention through safeguard mechanisms";medium
+17;"Transparency and explainability: those who play an active role in the AI system lifecycle (AI actors), including organisations and individuals that deploy or operate AI, should provide information to foster stakeholders' understanding of the systems, such that people affected by AI systems can comprehend the outcome and challenge the decision when needed";high
+17;"Robustness, security, and safety: AI systems need to function appropriately while ensuring traceability, and AI actors need to apply systematic risk-management approaches to mitigate, safety and security risks, among others";high
+17;"AI actors should be accountable for the proper functioning of AI systems and for the respect of the [first four] principles, based on their roles, the context, and consistent with the state-of-the-art";high
+13;"each party or actor – AI developer, data processor AI vendor and AI deployer – might need to conduct its own assessment and document actions taken to manage risks";high
+13;"All actors should manage risks based on their roles, the context, and following the state-of-the-art";medium
+13;"the actors actively involved in the design, development, deployment and operation of the AI system (i.e. 'by whom?'); (3) the users of the AI system (i.e. 'for whom?'); and (4) the stakeholders affected by the AI system, including vulnerable groups (i.e. 'to whom?')";medium

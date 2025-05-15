@@ -1,0 +1,33 @@
+text_extract;highlight_color
+"Each use of 'real-time' remote biometric identification system in publicly accessible spaces for the purpose of law enforcement should be subject to an express and specific authorisation by a judicial authority";green
+"Such authorisation should in principle be obtained prior to the use, except in duly justified situations of urgency";green
+"In such situations of urgency, the use should be restricted to the absolute minimum necessary and be subject to appropriate safeguards and conditions";green
+"The use of 'real-time' remote biometric identification systems in publicly accessible spaces for the purpose of law enforcement necessarily involves the processing of biometric data";yellow
+"High-risk AI systems should only be placed on the Union market or put into service if they comply with certain mandatory requirements";green
+"AI systems could produce adverse outcomes to health and safety of persons, in particular when such systems operate as components of products";yellow
+"increasingly autonomous robots should be able to safely operate and performs their functions in complex environments";green
+"in the health sector where the stakes for life and health are particularly high, increasingly sophisticated diagnostics systems and systems supporting human decisions should be reliable and accurate";green
+"those rights include the right to human dignity, respect for private and family life, protection of personal data";yellow
+"both types of remote biometric identification systems should be subject to specific requirements on logging capabilities and human oversight";green
+"AI systems used in employment, workers management and access to self-employment should be classified as high-risk";green
+"if the AI system is not trained with high quality data, does not meet adequate requirements in terms of accuracy or robustness, or is not properly designed and tested";green
+"Training, validation and testing data sets should be sufficiently relevant, representative and free of errors";green
+"training, validation and testing data sets should take into account the features, characteristics or elements that are particular to the specific context";green
+"Having information on how high-risk AI systems have been developed and how they perform throughout their lifecycle";green
+"This requires keeping records and the availability of a technical documentation";green
+"Users should be able to interpret the system output and use it appropriately";green
+"High-risk AI systems should therefore be accompanied by relevant documentation and instructions";green
+"High-risk AI systems should be designed and developed in such a way that natural persons can oversee their functioning";green
+"appropriate human oversight measures should be identified by the provider of the system";green
+"The technical robustness is a key requirement for high-risk AI systems";green
+"They should be resilient against risks connected to the limitations of the system";green
+"Cybersecurity plays a crucial role in ensuring that AI systems are resilient against attempts to alter their use";green
+"To ensure a level of cybersecurity appropriate to the risks, suitable measures should therefore be taken by the providers";green
+"The provider should establish a sound quality management system";green
+"specific responsibilities for users. Users should in particular use high-risk AI systems in accordance with the instructions";green
+"relevant third parties should cooperate with providers and users to enable their compliance";green
+"in order to ensure a high level of trustworthiness of high-risk AI systems, those systems should be subject to a conformity assessment";green
+"providers should also be required to have a system in place to report to the relevant authorities any serious incidents";green
+"in order to ensure an appropriate and effective enforcement of the requirements and obligations";green
+"national public authorities or bodies should also have access to any documentation created under this Regulation";green
+"High data quality is essential for the performance of many AI systems";green

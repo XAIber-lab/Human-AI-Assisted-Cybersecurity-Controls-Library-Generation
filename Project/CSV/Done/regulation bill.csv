@@ -1,0 +1,65 @@
+"Question","Page","Text"
+"Secure design, development, deployment, operation, configuration, and maintenance","2","(ii) test it thoroughly and transparently;"
+"Secure design, development, deployment, operation, configuration, and maintenance","2","(iii) comply with applicable laws, including in relation to data protection, privacy and intellectual property;"
+"Safe and secure use, develop, and provision of AI system","2","(a) regulation of AI should deliver—
+(i) safety, security and robustness;
+(ii) appropriate transparency and explainability;
+(iii) fairness;
+(iv) accountability and governance;
+(v) contestability and redress;"
+"Safe and secure use, develop, and provision of AI system","2","(b) any business which develops, deploys or uses AI should—
+(i) be transparent about it;
+(ii) test it thoroughly and transparently;
+(iii) comply with applicable laws, including in relation to data
+protection, privacy and intellectual property;"
+"Safe and secure use, develop, and provision of AI system","3","(a) to ensure the safe, ethical, unbiased and non-discriminatory use of AI
+by the business;"
+"Defend, protect, and monitor AI system, handle logs","3-4","(iv) any business which develops, deploys or uses AI must allow
+independent third parties accredited by the AI Authority to
+audit its processes and systems."
+"Users safety and privacy protection","2","(c) AI and its applications should—
+(i) comply with equalities legislation;
+(ii) be inclusive by design;
+(iii) be designed so as neither to discriminate unlawfully among
+individuals nor, so far as reasonably practicable, to perpetuate
+unlawful discrimination arising in input data;
+(iv) meet the needs of those from lower socio-economic groups,
+older people and disabled people;"
+"Users safety and privacy protection","3-4","(iii) any person supplying a product or service involving AI must
+give customers clear and unambiguous health warnings,
+labelling and opportunities to give or withhold informed
+consent in advance;"
+"Users' rights and communication","4","(a) implement a programme for meaningful, long-term public engagement
+about the opportunities and risks presented by AI; and"
+"Users' rights and communication","4","(b) consult the general public and such persons as it considers appropriate
+as to the most effective frameworks for public engagement, having
+regard to international comparators."
+"Law, legislation, regulations, standardization, and rules compliance","1","(a) ensure that relevant regulators take account of AI;
+(b) ensure alignment of approach across relevant regulators in respect of
+AI;
+(c) undertake a gap analysis of regulatory responsibilities in respect of
+AI;
+(d) coordinate a review of relevant legislation, including product safety,
+privacy and consumer protection, to assess its suitability to address
+the challenges and opportunities presented by AI;"
+"Law, legislation, regulations, standardization, and rules compliance","1","(e) monitor and evaluate the overall regulatory framework's effectiveness
+and the implementation of the principles in section 2, including the
+extent to which they support innovation;"
+"Law, legislation, regulations, standardization, and rules compliance","1","(k) promote interoperability with international regulatory frameworks."
+"Law, legislation, regulations, standardization, and rules compliance","2","(iii) comply with applicable laws, including in relation to data
+protection, privacy and intellectual property;"
+"Law, legislation, regulations, standardization, and rules compliance","3","(B) they comply with all applicable IP and copyright
+obligations;"
+"Risk assessment, management, evaluation, response, mitigation, vulnerabilities and threat identification","1","(f) assess and monitor risks across the economy arising from AI;"
+"Risk assessment, management, evaluation, response, mitigation, vulnerabilities and threat identification","1","(g) conduct horizon-scanning, including by consulting the AI industry,
+to inform a coherent response to emerging AI technology trends;"
+"Evaluation, validation, and testing of AI systems","2","(ii) test it thoroughly and transparently;"
+"Data protection, classification, storage, and validation","2","(v) generate data that are findable, accessible, interoperable and
+reusable;"
+"Data protection, classification, storage, and validation","3","(i) supply to the AI Authority a record of all third-party data and
+intellectual property (""IP"") used in that training; and
+(ii) assure the AI Authority that—
+(A) they use all such data and IP by informed consent;
+and
+(B) they comply with all applicable IP and copyright
+obligations;"

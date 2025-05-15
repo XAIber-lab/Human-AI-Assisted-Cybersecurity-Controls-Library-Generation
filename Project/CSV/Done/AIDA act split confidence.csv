@@ -1,0 +1,23 @@
+Page;Text;Confidence;Reasoning
+First Response Set:
+13;The AIDA would require that appropriate measures be put in place to identify, assess, and mitigate risks of harm or biased output prior to a high-impact system being made available for use;High;Direct statement about security and safety requirements
+13;Human Oversight means that high-impact AI systems must be designed and developed in such a way as to enable people managing the operations of the system to exercise meaningful oversight. This includes a level of interpretability appropriate to the context;High;Clear guideline about system oversight and operational requirements
+13;Monitoring, through measurement and assessment of high-impact AI systems and their output, is critical in supporting effective human oversight;High;Specific monitoring requirement
+14;Transparency means providing the public with appropriate information about how high-impact AI systems are being used. The information provided should be sufficient to allow the public to understand the capabilities, limitations, and potential impacts of the systems;High;Direct transparency requirement
+14;Fairness and Equity means building high-impact AI systems with an awareness of the potential for discriminatory outcomes. Appropriate actions must be taken to mitigate discriminatory outcomes for individuals and groups;High;Clear fairness guideline
+15;Safety means that high-impact AI systems must be proactively assessed to identify harms that could result from use of the system, including through reasonably foreseeable misuse. Measures must be taken to mitigate the risk of harm;High;Direct safety requirement
+15;Accountability means that organizations must put in place governance mechanisms needed to ensure compliance with all legal obligations of high-impact AI systems in the context in which they will be used;High;Clear accountability requirement
+16;Validity means a high-impact AI system performs consistently with intended objectives. Robustness means a high-impact AI system is stable and resilient in a variety of circumstances;Medium;General system qualities rather than specific requirements
+17;Businesses who design or develop a high-impact AI system would be expected to take measures to identify and address risks with regards to harm and bias, document appropriate use and limitations, and adjust the measures as needed;High;Specific requirements for businesses
+17;Businesses who make a high-impact AI system available for use would be expected to consider potential uses when deployed and take measures to ensure users are aware of any restrictions on how the system is meant to be used and understand its limitations;High;Clear deployment requirements
+17;Businesses who manage the operations of an AI system would be expected to use AI systems as indicated, assess and mitigate risk, and ensure ongoing monitoring of the system;High;Specific operational requirements
+18-19;[All development and deployment requirements listed];High;Direct technical requirements
+20;In the initial years after it comes into force, the focus of AIDA would be on education, establishing guidelines, and helping businesses to come into compliance through voluntary means;Low;Context information rather than specific requirement
+Second Response Set:
+13-15;[Previous oversight, monitoring, and accountability requirements];High;Direct requirements for system control and risk management
+17;developers of general-purpose systems would need to ensure that risks related to bias or harmful content are documented and addressed;High;Specific risk management requirement
+17;businesses responsible for regulated activities associated with a high-impact system would also be required to notify the Minister if a system causes or is likely to cause material harm;High;Clear incident reporting requirement
+18;Performing an initial assessment of potential risks associated with the use of an AI system in the context and deciding whether the use of AI is appropriate;High;Direct risk assessment requirement
+18-19;[Technical validation and documentation requirements];High;Specific validation and verification requirements
+19;Logging and monitoring the output of the system as appropriate in the context;High;Direct monitoring requirement
+20;The Commissioner's work would include supporting and coordinating with other regulators to ensure consistent regulatory capacity across different contexts, as well as tracking and studying of potential systemic effects of AI systems;Medium;More about regulatory context than specific requirements

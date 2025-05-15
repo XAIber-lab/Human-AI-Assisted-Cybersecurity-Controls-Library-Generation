@@ -1,0 +1,5 @@
+Page;Text;Confidence;Definition Label
+6;The framework allows users to zoom in on specific risks that are typical of AI, such as bias, explainability and robustness;Medium;definition
+6;Support risk assessment: Provide the basis for related work to develop a risk assessment framework to help with de-risking and mitigation and to develop a common framework for reporting about AI incidents that facilitates global consistency and interoperability in incident reporting;High;
+6;Support risk management: Help inform related work on mitigation, compliance and enforcement along the AI system lifecycle, including as it pertains to corporate governance;High;
+6;Each one has its own properties and attributes or sub-dimensions relevant to assessing policy considerations of particular AI systems;Low;definition
