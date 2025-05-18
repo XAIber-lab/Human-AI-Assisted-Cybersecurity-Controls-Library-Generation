@@ -1,19 +1,27 @@
-# A Human-AI Assisted Methodology
-# for the Generation of a Cybersecurity Controls Library
+# A Human-AI Assisted Methodology for the Generation of a Cybersecurity Controls Library
 
-Abstract— Security frameworks are important tools to govern organizations' cybersecurity, but their creation and update require significant time and human effort to avoid leaving organizations with fragmented regulations. This work proposes a methodology to use Generative AI to assist the risk assessor, using AI to analyze documents and recommend useful excerpts, transforming them into controls and assisting in results review. The methodology was validated over 55 documents, half analyzed by the human expert, with the results compared using the AI model to tune it. The second half is analyzed by the model, and the expert reviewed the results. The AI provides a confidence degree in the analysis and automatically annotates the document excerpts. These tests demonstrated comparable accuracy and greatly analysis time reduction.
+**Abstract**— Security frameworks are important tools to govern organizations' cybersecurity, but their creation and update require significant time and human effort to avoid leaving organizations with fragmented regulations. This work proposes a methodology to use Generative AI to assist the risk assessor, using AI to analyze documents and recommend useful excerpts, transforming them into controls and assisting in results review. The methodology was validated over 55 documents, half analyzed by the human expert, with the results compared using the AI model to tune it. The second half is analyzed by the model, and the expert reviewed the results. The AI provides a confidence degree in the analysis and automatically annotates the document excerpts. These tests demonstrated comparable accuracy and greatly analysis time reduction.
 Two controls libraries were generated as case study. One for the NIST Cybersecurity Framework 2.0 regarding cybersecurity of generative AI, the other for the NIS 2 directive.
 
-Index Terms—Cyber Risk Assessment, Generative AI, Human-Centered AI, LLM, Cybersecurity Framework
+**Index Terms**—Cyber Risk Assessment, Generative AI, Human-Centered AI, LLM, Cybersecurity Framework
 
-Important material: 
+**Important material (with example images):**
 
--Prompts (Project -> Prompts): Inside this folder there are all the AI prompt developed and used for this work. "Prompt first half" and "Prompt second half" are the prompt used, one after the other, to obtain the relevant excerpt from a given document. "Prompt confidence" is used to make the AI give the confidence degrees of the analysis results. "Prompt mapping" is used to make the AI give suggestions on mapping the relevant excerpts on a framework's core subcategories. Notice that the AI require also the core to work, and that the positive example of this prompt are from the NIST cybersecurity framework 2.0.
+- **Prompts:** Inside this folder there are all the AI prompt developed and used for this work. "Prompt first half" and "Prompt second half" are the prompt used, one after the other, to obtain the relevant excerpt from a given document. "Prompt confidence" is used to make the AI give the confidence degrees of the analysis results. "Prompt mapping" is used to make the AI give suggestions on mapping the relevant excerpts on a framework's core subcategories. Notice that the AI require also the core to work, and that the positive example of this prompt are from the NIST cybersecurity framework 2.0.
 
--Documents.xlsx (Project -> Documents.xlsx): Contains all the collected documents' data, category (best practice, standard, norm) and link.
+- **List and characterization of collected documents.xlsx** Contains all the collected documents' data, category (best practice, standard, norm) and link.
 
--Final prototype (Project -> Final prototype): This folder contains the framework contextualization prototype and the implementation guides.
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/e6ed4d4c-312c-4f95-8548-05cb6ec88645" />
 
--Assisted results review scripts (project -> Assisted results review scripts): This folder contains the two scripts used for the visual aid in the automated analysis results review and the launcher for both. Results.py takes in input the AI analysis generated CVS, while Match.py takes the CSV file containin the risk assessor expert analysis results and the the AI analysis generated CVS. Both automatically generate an HTML page to help in the analysis results review. It is also present a text file with the instruction.
+- **Final prototype:** This folder contains the framework contextualization prototype and the implementation guides.
 
--NIS 2 study case (Project -> NIS 2 study case): This folder contains all the material of the NIS 2 study case. It contains the resulting CSVs from the AI analysis, and the final CSV with the results reviewed by the risk assessor expert. It also contains the HTML pages automatically generated by the scripts used for the results review.
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/19c0cb3d-5fa8-4651-89fd-50b183c62f69" />
+
+- **Assisted results review scripts:** This folder contains the two scripts used for the visual aid in the automated analysis results review and the launcher for both. Results.py takes in input the AI analysis generated CVS, while Match.py takes the CSV file containin the risk assessor expert analysis results and the the AI analysis generated CVS. Both automatically generate an HTML page to help in the analysis results review. It is also present a text file with the instruction.
+
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/c4a0c131-5da5-4829-a345-7c116127a828" />
+
+- **NIS 2 study case:** This folder contains all the material of the NIS 2 study case. It contains the resulting CSVs from the AI analysis, and the final CSV with the results reviewed by the risk assessor expert. It also contains the HTML pages automatically generated by the scripts used for the results review.
+
+<img width="581" alt="results" src="https://github.com/user-attachments/assets/4b445a3f-7a34-47ef-a997-4bed8dbd0e14" />
+
