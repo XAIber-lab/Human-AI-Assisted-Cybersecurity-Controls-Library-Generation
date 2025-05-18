@@ -12,7 +12,7 @@ Important material:
 
 -Documents.xlsx (Project -> Documents.xlsx): Contains all the collected documents' data, category (best practice, standard, norm) and link.
 
--Final prototypes (Project -> Final prototypes): This folder contains the framework contextualization prototype and the implementation guides.
+-Final prototype (Project -> Final prototype): This folder contains the framework contextualization prototype and the implementation guides.
 
 -Assisted results review scripts (project -> Assisted results review scripts): This folder contains the two scripts used for the visual aid in the automated analysis results review and the launcher for both. Results.py takes in input the AI analysis generated CVS, while Match.py takes the CSV file containin the risk assessor expert analysis results and the the AI analysis generated CVS. Both automatically generate an HTML page to help in the analysis results review. It is also present a text file with the instruction.
 
