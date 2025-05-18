@@ -1,25 +1,10 @@
 # A Human-AI Assisted Methodology
 # for the Generation of a Cybersecurity Controls Library
 
-Abstract—Security frameworks are important tools to govern
-organizations’ cybersecurity, but their creation and update require
-significant time and human effort to avoid leaving organizations with
-fragmented regulations. This work proposes a methodology to use
-Generative AI to assist the human risk assessor, using AI to analyze
-documents and recommend useful excerpts, transforming them into
-controls and assisting in results review. The methodology was validated
-over 55 documents, half analyzed by the human expert, with the results
-compared using the AI model to tune it. The second half is analyzed
-by the model, and the expert reviews the results. The AI provides a
-confidence degree in the analysis and automatically highlights the
-document excerpts. These tests demonstrated comparable accuracy
-and greatly reduced the analysis time. Two controls libraries were
-generated as case study. One for the NIST Cybersecurity Framework
-2.0 regarding secure AI, the other for the NIS 2 directive.
+Abstract— Security frameworks are important tools to govern organizations' cybersecurity, but their creation and update require significant time and human effort to avoid leaving organizations with fragmented regulations. This work proposes a methodology to use Generative AI to assist the risk assessor, using AI to analyze documents and recommend useful excerpts, transforming them into controls and assisting in results review. The methodology was validated over 55 documents, half analyzed by the human expert, with the results compared using the AI model to tune it. The second half is analyzed by the model, and the expert reviewed the results. The AI provides a confidence degree in the analysis and automatically annotates the document excerpts. These tests demonstrated comparable accuracy and greatly analysis time reduction.
+Two controls libraries were generated as case study. One for the NIST Cybersecurity Framework 2.0 regarding cybersecurity of generative AI, the other for the NIS 2 directive.
 
-Index Terms—Cyber Risk Assessment, Generative AI,
-Human-Centered AI, LLM, Cybersecurity Framework, AI-Assisted
-Methodology, AI-Assisted Document Analysis, Risk Management
+Index Terms—Cyber Risk Assessment, Generative AI, Human-Centered AI, LLM, Cybersecurity Framework
 
 Important material: 
 
