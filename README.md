@@ -18,7 +18,8 @@ Two control libraries were generated as case study. One for the NIST Cybersecuri
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/19c0cb3d-5fa8-4651-89fd-50b183c62f69" />
 
 - **Assisted results review scripts:** This folder contains the two scripts used for the visual aid in the automated analysis results review and the launcher for both.
-- Results.py takes in input the AI analysis generated CSV, and returns an HTML file with:
+  
+ **Results.py** takes in input the AI analysis generated CSV, and returns an HTML file with:
   
   --Two pie charts, one for the NIST Cybersecurity Framework, and one for the NIST Privacy Framework, showing the excerpts coverage of the framework's functions
   
@@ -26,7 +27,7 @@ Two control libraries were generated as case study. One for the NIST Cybersecuri
   
   This script takes in input the final CSV resulting from the entire analysis process, the one obtained with the final part of the AI prompt "Prompt mapping.odt". The resulting CSV has the following format: "page@text@First proposal@Second proposal@Third proposal@labels@confidence@definitions".
   
-- Match.py takes in input the CSV file containing the risk assessor expert analysis results and the AI analysis generated CSV, and returns an HTML file with:
+ **Match.py** takes in input the CSV file containing the risk assessor expert analysis results and the AI analysis generated CSV, and returns an HTML file with:
   
   --A list with the number of true positives, false negatives, false positives, and their percentage, and a confusion matrix summarizing these results
   
