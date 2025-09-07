@@ -7,7 +7,7 @@ Two control libraries were generated as case study. One for the NIST Cybersecuri
 
 **Important material (with example images):**
 
-- **Prompts:** Inside this folder there are all the AI prompts developed and used for this work. "Prompt first half" and "Prompt second half" are the prompts used, one after the other, to obtain the relevant excerpt from a given document. "Prompt confidence" is used to make the AI give the confidence degrees of the analysis results. "Prompt mapping" is used to make the AI give suggestions on mapping the relevant excerpts on a framework's core subcategories. Notice that the AI require also the core to work, and that the positive example of this prompt are from the NIST cybersecurity framework 2.0.
+- **Prompts:** This folder contains all the AI prompts developed and used for this work. "Prompt first half" and "Prompt second half" are the prompts used, one after the other, to obtain the relevant excerpt from a given document. "Prompt confidence" is used to make the AI give the confidence degrees of the analysis results. "Prompt mapping" is used to make the AI give suggestions on mapping the relevant excerpts on a framework's core subcategories. Notice that the AI require also the core to work, and that the positive example of this prompt are from the NIST cybersecurity framework 2.0.
 
 - **List and characterization of collected documents.xlsx** Contains all the collected documents' data, category (best practice, standard, norm), and link.
 
@@ -18,24 +18,24 @@ Two control libraries were generated as case study. One for the NIST Cybersecuri
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/19c0cb3d-5fa8-4651-89fd-50b183c62f69" />
 
 - **Assisted results review scripts:** This folder contains the two scripts used for the visual aid in the automated analysis results review and the launcher for both.
-- Results.py takes in input the AI analysis generated CVS, and return an HTML file with:
+- Results.py takes in input the AI analysis generated CSV, and returns an HTML file with:
   
   --Two pie charts, one for the NIST Cybersecurity Framework, and one for the NIST Privacy Framework, showing the excerpts coverage of the framework's functions
   
-  --Two bar charts, one showing the excertps distribution by consifende level, and one showing the distribution for confidence level of the excerpts marked as "definintion".
+  --Two bar charts, one showing the excerpts distribution by confidence degree, and one showing the distribution by confidence degree of the excerpts marked as "definition".
   
   This script takes in input the final CSV resulting from the entire analysis process, the one obtained with the final part of the AI prompt "Prompt mapping.odt". The resulting CSV has the following format: "page@text@First proposal@Second proposal@Third proposal@labels@confidence@definitions".
   
-- Match.py takes in input the CSV file containing the risk assessor expert analysis results and the the AI analysis generated CVS, and return an HTML file with:
+- Match.py takes in input the CSV file containing the risk assessor expert analysis results and the AI analysis generated CSV, and returns an HTML file with:
   
-  --A list of the number of true positive, false negative, and false positive, and their percentage, and a confusion matrix summarizing these results
+  --A list with the number of true positives, false negatives, false positives, and their percentage, and a confusion matrix summarizing these results
   
-  --Four pie charts, grouping the excerpts by their confidence degree, resulting from the AI analysis, and showing the number and percentage of these excerpts that are effectively useful or useless, based on the match results
+  --Four pie charts, grouping the excerpts by their confidence degree resulting from the AI analysis, and showing the number and percentage of these excerpts that are effectively useful or useless, based on the match results
   
-  --Two bar charts, one showing the excertps distribution by consifende level, and one showing the distribution for confidence level of the excerpts marked as "definintion".
+  --Two bar charts, one showing the excerpts distribution by confidence degree, and one showing the distribution by confidence degree of the excerpts marked as "definition".
   
   This script takes in input a CSV resulting from the expert manual analysis, having the following format "Page,Details,", where "Details" contains the text of the excerpts, and a CSV resulting from the AI analysis. The script searches the CSV for the following fields "Page,Text,Confidence,Definition Label". The resulting CSVs used for testing were generated with the AI prompt "Prompt confidence.odt".
-Both scripts automatically generate an HTML page to help in the analysis results review. It is also present a text file with the instructions.
+Both scripts automatically generate an HTML page to help in the analysis results review. A text file containing the instructions for the launcher scripts is present.
 
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/c4a0c131-5da5-4829-a345-7c116127a828" />
 
